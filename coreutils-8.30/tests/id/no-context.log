@@ -1,0 +1,2 @@
+no-context.sh: skipped test: this system lacks SELinux support
+SKIP tests/id/no-context.sh (exit status: 77)

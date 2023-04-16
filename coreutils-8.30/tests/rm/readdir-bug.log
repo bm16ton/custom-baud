@@ -1,0 +1,1 @@
+PASS tests/rm/readdir-bug.sh (exit status: 0)

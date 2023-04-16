@@ -1,0 +1,2 @@
+special-bits.sh: skipped test: must be run as root
+SKIP tests/cp/special-bits.sh (exit status: 77)

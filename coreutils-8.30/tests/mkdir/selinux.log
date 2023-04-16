@@ -1,0 +1,2 @@
+selinux.sh: skipped test: this system lacks SELinux support
+SKIP tests/mkdir/selinux.sh (exit status: 77)

@@ -1,0 +1,7 @@
+ginstall: the --compare (-C) option is ignored when you specify a mode with non-permission bits
+ginstall: the --compare (-C) option is ignored when you specify a mode with non-permission bits
+ginstall: options --compare (-C) and --preserve-timestamps are mutually exclusive
+Try 'ginstall --help' for more information.
+ginstall: options --compare (-C) and --strip are mutually exclusive
+Try 'ginstall --help' for more information.
+PASS tests/install/install-C.sh (exit status: 0)

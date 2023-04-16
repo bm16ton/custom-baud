@@ -1,0 +1,2 @@
+truncate: cannot open '.' for writing: Is a directory
+PASS tests/misc/truncate-dir-fail.sh (exit status: 0)

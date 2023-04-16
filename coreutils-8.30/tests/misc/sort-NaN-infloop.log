@@ -1,0 +1,1 @@
+PASS tests/misc/sort-NaN-infloop.sh (exit status: 0)

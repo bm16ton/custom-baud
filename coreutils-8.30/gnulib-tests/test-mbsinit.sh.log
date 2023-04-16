@@ -1,0 +1,2 @@
+Skipping test: no french Unicode locale is installed
+SKIP test-mbsinit.sh (exit status: 77)

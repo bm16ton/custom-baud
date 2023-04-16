@@ -1,0 +1,2 @@
+Skipping test: stdin is not a tty.
+SKIP test-getlogin (exit status: 77)

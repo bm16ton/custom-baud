@@ -1,0 +1,2 @@
+shred: 0123456789: failed to remove: Permission denied
+PASS tests/misc/shred-remove.sh (exit status: 0)

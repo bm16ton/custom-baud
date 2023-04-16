@@ -1,0 +1,2 @@
+fail-2eperm.sh: skipped test: must be run as root
+SKIP tests/rm/fail-2eperm.sh (exit status: 77)

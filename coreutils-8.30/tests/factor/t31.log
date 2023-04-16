@@ -1,0 +1,12 @@
+t31.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t31.sh (exit status: 77)

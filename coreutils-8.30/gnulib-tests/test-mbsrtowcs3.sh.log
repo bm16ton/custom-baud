@@ -1,0 +1,2 @@
+Skipping test: no traditional japanese locale is installed
+SKIP test-mbsrtowcs3.sh (exit status: 77)

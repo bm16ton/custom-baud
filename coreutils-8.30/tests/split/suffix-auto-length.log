@@ -1,0 +1,4 @@
+split: output file suffixes exhausted
+split: numerical suffix start value is too large for the suffix length
+Try 'split --help' for more information.
+PASS tests/split/suffix-auto-length.sh (exit status: 0)

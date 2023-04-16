@@ -1,0 +1,6 @@
+0+0 records in
+0+0 records out
+0 bytes copied, 0.0114627 s, 0.0 kB/s
+dd: error writing 'out.f': Invalid argument
+512 byte aligned O_DIRECT is not supported on this (file) system
+PASS tests/dd/nocache_eof.sh (exit status: 0)

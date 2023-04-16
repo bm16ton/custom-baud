@@ -1,0 +1,2 @@
+tac-continue.sh: skipped test: FULL_PARTITION_TMPDIR not defined
+SKIP tests/misc/tac-continue.sh (exit status: 77)

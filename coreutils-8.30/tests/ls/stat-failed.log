@@ -1,0 +1,4 @@
+ls: cannot access 'd/s': Permission denied
+l????????? ? ?            ? s
+ls: cannot access 'd/s': Permission denied
+PASS tests/ls/stat-failed.sh (exit status: 0)

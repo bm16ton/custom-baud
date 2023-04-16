@@ -1,0 +1,2 @@
+tty-eof.pl: this script requires Perl's Expect package >=1.11
+SKIP tests/misc/tty-eof.pl (exit status: 77)

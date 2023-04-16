@@ -1,0 +1,2 @@
+cp-a-selinux.sh: skipped test: must be run as root
+SKIP tests/cp/cp-a-selinux.sh (exit status: 77)

@@ -1,0 +1,2 @@
+truncate: cannot open 'fifo' for writing: No such device or address
+PASS tests/misc/truncate-fifo.sh (exit status: 0)

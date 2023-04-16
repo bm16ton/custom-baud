@@ -1,0 +1,6 @@
+diff -u /dev/null gdb.out
+--- /dev/null	1970-01-01
++++ gdb.out	1970-01-01
++2485	src/tail.c: No such file or directory.
+inotify-race.sh: skipped test: can't set breakpoints in tail
+SKIP tests/tail-2/inotify-race.sh (exit status: 77)

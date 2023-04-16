@@ -1,0 +1,13 @@
+timeout: invalid time interval 'invalid'
+Try 'timeout --help' for more information.
+timeout: invalid time interval 'invalid'
+Try 'timeout --help' for more information.
+timeout: invalid time interval '42D'
+Try 'timeout --help' for more information.
+timeout: invalid time interval '-1.189731495357231765085759326628007e+4932'
+Try 'timeout --help' for more information.
+timeout: 'invalid': invalid signal
+Try 'timeout --help' for more information.
+timeout: failed to run command '.': Permission denied
+timeout: failed to run command 'no_such': No such file or directory
+PASS tests/misc/timeout-parameters.sh (exit status: 0)

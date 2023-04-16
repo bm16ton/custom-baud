@@ -1,0 +1,2 @@
+cat: dir: Is a directory
+PASS tests/du/files0-from-dir.sh (exit status: 0)

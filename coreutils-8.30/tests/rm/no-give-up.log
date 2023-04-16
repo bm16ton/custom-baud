@@ -1,0 +1,2 @@
+no-give-up.sh: skipped test: must be run as root
+SKIP tests/rm/no-give-up.sh (exit status: 77)

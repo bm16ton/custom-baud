@@ -1,0 +1,6 @@
+[0m[01;36mdangle[0m
+hlink
+regf
+[01;36mslink[0m
+[01;34msubdir[0m
+PASS tests/ls/stat-free-color.sh (exit status: 0)

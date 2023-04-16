@@ -1,0 +1,4 @@
+mv: cannot overwrite directory '/tmp/tmp105981/bar' with non-directory
+mv: cannot overwrite non-directory '/tmp/tmp105981/bar2' with directory 'bar2'
+mv: inter-device move failed: 'bar3' to '/tmp/tmp105981/bar3'; unable to remove target: Directory not empty
+PASS tests/mv/part-rename.sh (exit status: 0)

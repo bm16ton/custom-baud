@@ -1,0 +1,5 @@
+x
+ok ok ok
+x
+ok ok ok
+PASS tests/tail-2/assert-2.sh (exit status: 0)

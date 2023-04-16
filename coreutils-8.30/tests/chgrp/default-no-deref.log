@@ -1,0 +1,1 @@
+PASS tests/chgrp/default-no-deref.sh (exit status: 0)

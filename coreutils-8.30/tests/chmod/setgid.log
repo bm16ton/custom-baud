@@ -1,0 +1,1 @@
+PASS tests/chmod/setgid.sh (exit status: 0)

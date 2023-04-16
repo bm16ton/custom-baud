@@ -1,0 +1,2 @@
+smack-root.sh: skipped test: this system lacks SMACK support
+SKIP tests/mkdir/smack-root.sh (exit status: 77)

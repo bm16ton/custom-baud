@@ -1,0 +1,4 @@
+0+1 records in
+0+1 records out
+328 bytes copied, 0.000184325 s, 1.8 MB/s
+PASS tests/dd/ascii.sh (exit status: 0)

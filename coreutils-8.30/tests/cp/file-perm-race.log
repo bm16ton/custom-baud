@@ -1,0 +1,1 @@
+PASS tests/cp/file-perm-race.sh (exit status: 0)

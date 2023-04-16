@@ -1,0 +1,6 @@
+truncate: Invalid number: '+>0'
+truncate: multiple relative modifiers specified
+Try 'truncate --help' for more information.
+truncate: division by zero
+truncate: division by zero
+PASS tests/misc/truncate-relative.sh (exit status: 0)

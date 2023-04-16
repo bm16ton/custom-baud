@@ -1,0 +1,6 @@
+xz (XZ Utils) 5.2.4
+liblzma 5.2.4
+split: --filter does not process a chunk extracted to stdout
+Try 'split --help' for more information.
+truncate: cannot open '' for writing: No such file or directory
+PASS tests/split/filter.sh (exit status: 0)

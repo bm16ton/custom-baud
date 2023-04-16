@@ -1,0 +1,3 @@
+sort: open failed: input: Permission denied
+sort: cannot read: output: Permission denied
+PASS tests/misc/sort-exit-early.sh (exit status: 0)

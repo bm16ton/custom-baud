@@ -1,0 +1,2 @@
+no-ctx.sh: skipped test: this system lacks SELinux support
+SKIP tests/cp/no-ctx.sh (exit status: 77)

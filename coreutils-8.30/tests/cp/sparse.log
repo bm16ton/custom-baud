@@ -1,0 +1,44 @@
+cp: --reflink can be used only with --sparse=auto
+Try 'cp --help' for more information.
+cp: --reflink can be used only with --sparse=auto
+Try 'cp --help' for more information.
+128+0 records in
+128+0 records out
+524288 bytes (524 kB, 512 KiB) copied, 0.000911211 s, 575 MB/s
+512K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.in
+260K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out
+256K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out2
+512K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.in
+260K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out
+260K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out2
+512K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.in
+260K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out
+260K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out2
+484K -rw-r--r-- 1 maddocks maddocks 484K Apr 16 18:59 sparse.in
+268K -rw-r--r-- 1 maddocks maddocks 484K Apr 16 18:59 sparse.out
+268K -rw-r--r-- 1 maddocks maddocks 484K Apr 16 18:59 sparse.out2
+512K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.in
+256K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out
+256K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out2
+512K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.in
+512K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out
+512K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out2
+512K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.in
+260K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out
+260K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out2
+512K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.in
+260K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out
+260K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out2
+512K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.in
+260K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out
+260K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out2
+484K -rw-r--r-- 1 maddocks maddocks 484K Apr 16 18:59 sparse.in
+224K -rw-r--r-- 1 maddocks maddocks 484K Apr 16 18:59 sparse.out
+224K -rw-r--r-- 1 maddocks maddocks 484K Apr 16 18:59 sparse.out2
+512K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.in
+256K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out
+256K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out2
+512K -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.in
+   0 -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out
+   0 -rw-r--r-- 1 maddocks maddocks 512K Apr 16 18:59 sparse.out2
+PASS tests/cp/sparse.sh (exit status: 0)

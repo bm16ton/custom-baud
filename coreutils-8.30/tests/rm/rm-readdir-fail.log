@@ -1,0 +1,1 @@
+PASS tests/rm/rm-readdir-fail.sh (exit status: 0)

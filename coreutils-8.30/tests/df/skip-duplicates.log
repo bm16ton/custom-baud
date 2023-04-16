@@ -1,0 +1,7 @@
+/
+Filesystem     1K-blocks     Used Available Use% Mounted on
+/fsname         53768512 48486448   2518288  96% /
+virtfs2          3392876        0   3392876   0% /dev
+rem:ote1          695700     1928    693772   1% /run
+rem:ote2          695700     1928    693772   1% /run
+PASS tests/df/skip-duplicates.sh (exit status: 0)

@@ -1,0 +1,4 @@
+0+1 records in
+0+1 records out
+2 bytes copied, 0.00322078 s, 0.6 kB/s
+PASS tests/misc/cat-buf.sh (exit status: 0)

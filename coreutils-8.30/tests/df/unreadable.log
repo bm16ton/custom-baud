@@ -1,0 +1,5 @@
+Filesystem     1K-blocks     Used Available Use% Mounted on
+/dev/sda4       56402444 41860060  11644876  79% /Part
+Filesystem     1K-blocks     Used Available Use% Mounted on
+/dev/sda4       56402444 41860064  11644872  79% /Part
+PASS tests/df/unreadable.sh (exit status: 0)

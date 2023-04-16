@@ -1,0 +1,55 @@
+sort: using simple byte comparison
+sort: key 1 is numeric and spans multiple fields
+sort: using simple byte comparison
+sort: leading blanks are significant in key 1; consider also specifying 'b'
+sort: key 1 is numeric and spans multiple fields
+sort: using simple byte comparison
+sort: key 1 is numeric and spans multiple fields
+sort: using simple byte comparison
+sort: key 1 is numeric and spans multiple fields
+sort: using simple byte comparison
+sort: key 1 is numeric and spans multiple fields
+sort: using simple byte comparison
+sort: leading blanks are significant in key 1; consider also specifying 'b'
+sort: key 1 is numeric and spans multiple fields
+sort: using simple byte comparison
+sort: key 1 is numeric and spans multiple fields
+sort: using simple byte comparison
+sort: key 1 is numeric and spans multiple fields
+sort: using simple byte comparison
+sort: key 1 is numeric and spans multiple fields
+sort: using simple byte comparison
+sort: leading blanks are significant in key 1; consider also specifying 'b'
+sort: key 1 is numeric and spans multiple fields
+sort: using simple byte comparison
+sort: key 1 is numeric and spans multiple fields
+sort: using simple byte comparison
+sort: key 1 is numeric and spans multiple fields
+sort: using simple byte comparison
+sort: using simple byte comparison
+sort: using simple byte comparison
+sort: using simple byte comparison
+sort: using simple byte comparison
+sort: using simple byte comparison
+sort: using simple byte comparison
+sort: using simple byte comparison
+sort: using simple byte comparison
+sort: leading blanks are significant in key 1; consider also specifying 'b'
+sort: using simple byte comparison
+sort: leading blanks are significant in key 1; consider also specifying 'b'
+sort: using simple byte comparison
+sort: using simple byte comparison
+sort: using simple byte comparison
+sort: using simple byte comparison
+sort: using simple byte comparison
+sort: key 1 is numeric and spans multiple fields
+sort: using simple byte comparison
+sort: key 1 is numeric and spans multiple fields
+sort: using simple byte comparison
+sort: key 1 is numeric and spans multiple fields
+sort: using simple byte comparison
+sort: using simple byte comparison
+sort: using simple byte comparison
+sort: leading blanks are significant in key 1; consider also specifying 'b'
+sort: using simple byte comparison
+PASS tests/misc/sort-debug-keys.sh (exit status: 0)

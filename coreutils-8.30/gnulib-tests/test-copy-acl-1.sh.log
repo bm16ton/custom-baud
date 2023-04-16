@@ -1,0 +1,149 @@
++ test 1 = 0
++ func_tmpdir
++ : /var/tmp
++ tmp=/var/tmp/gl4EJVwr
++ test -n /var/tmp/gl4EJVwr
++ test -d /var/tmp/gl4EJVwr
+++ pwd
++ builddir=/Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests
++ cd /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests
++ cd /var/tmp/gl4EJVwr
++ rm -f 'tmpfile[0-9]' 'tmpaclout[0-2]'
++ echo 'Simple contents'
++ chmod 600 tmpfile0
++ acl_flavor=none
++ acl_flavor=linux
++ case $acl_flavor in
++ func_test_copy tmpfile0 tmpfile1
++ echo 'Simple contents'
++ chmod 600 tmpfile1
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-copy-acl tmpfile0 tmpfile1
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-sameacls tmpfile0 tmpfile1
++ func_test_same_acls tmpfile0 tmpfile1
++ getfacl tmpfile0
++ sed -e s/tmpfile0/FILENAME/g
++ getfacl tmpfile1
++ sed -e s/tmpfile1/FILENAME/g
++ cmp tmpaclout1 tmpaclout2
++ test linux '!=' none
++ test -f /usr/xpg4/bin/id
++ ID=id
+++ id -u
++ myuid=1000
+++ id -g
++ mygid=1000
++ auid=1
++ test 1 = 1000
++ agid=1
++ test 1 = 1000
++ case $acl_flavor in
++ setfacl -m user:1:1 tmpfile0
++ func_test_copy tmpfile0 tmpfile2
++ echo 'Simple contents'
++ chmod 600 tmpfile2
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-copy-acl tmpfile0 tmpfile2
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-sameacls tmpfile0 tmpfile2
++ func_test_same_acls tmpfile0 tmpfile2
++ getfacl tmpfile0
++ sed -e s/tmpfile0/FILENAME/g
++ getfacl tmpfile2
++ sed -e s/tmpfile2/FILENAME/g
++ cmp tmpaclout1 tmpaclout2
++ setfacl -m group:1:4 tmpfile0
++ func_test_copy tmpfile0 tmpfile3
++ echo 'Simple contents'
++ chmod 600 tmpfile3
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-copy-acl tmpfile0 tmpfile3
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-sameacls tmpfile0 tmpfile3
++ func_test_same_acls tmpfile0 tmpfile3
++ getfacl tmpfile0
++ sed -e s/tmpfile0/FILENAME/g
++ getfacl tmpfile3
++ sed -e s/tmpfile3/FILENAME/g
++ cmp tmpaclout1 tmpaclout2
++ case $acl_flavor in
++ setfacl -m other:4 tmpfile0
++ func_test_copy tmpfile0 tmpfile4
++ echo 'Simple contents'
++ chmod 600 tmpfile4
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-copy-acl tmpfile0 tmpfile4
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-sameacls tmpfile0 tmpfile4
++ func_test_same_acls tmpfile0 tmpfile4
++ getfacl tmpfile0
++ sed -e s/tmpfile0/FILENAME/g
++ getfacl tmpfile4
++ sed -e s/tmpfile4/FILENAME/g
++ cmp tmpaclout1 tmpaclout2
++ case $acl_flavor in
++ setfacl -x user:1 tmpfile0
++ func_test_copy tmpfile0 tmpfile5
++ echo 'Simple contents'
++ chmod 600 tmpfile5
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-copy-acl tmpfile0 tmpfile5
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-sameacls tmpfile0 tmpfile5
++ func_test_same_acls tmpfile0 tmpfile5
++ sed -e s/tmpfile0/FILENAME/g
++ getfacl tmpfile0
++ getfacl tmpfile5
++ sed -e s/tmpfile5/FILENAME/g
++ cmp tmpaclout1 tmpaclout2
++ case $acl_flavor in
++ func_test_copy tmpfile0 tmpfile6
++ echo 'Simple contents'
++ chmod 600 tmpfile6
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-copy-acl tmpfile0 tmpfile6
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-sameacls tmpfile0 tmpfile6
++ func_test_same_acls tmpfile0 tmpfile6
++ getfacl tmpfile0
++ sed -e s/tmpfile0/FILENAME/g
++ getfacl tmpfile6
++ sed -e s/tmpfile6/FILENAME/g
++ cmp tmpaclout1 tmpaclout2
++ case $acl_flavor in
++ setfacl -x group:1 tmpfile0
++ func_test_copy tmpfile0 tmpfile7
++ echo 'Simple contents'
++ chmod 600 tmpfile7
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-copy-acl tmpfile0 tmpfile7
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-sameacls tmpfile0 tmpfile7
++ func_test_same_acls tmpfile0 tmpfile7
++ getfacl tmpfile0
++ sed -e s/tmpfile0/FILENAME/g
++ getfacl tmpfile7
++ sed -e s/tmpfile7/FILENAME/g
++ cmp tmpaclout1 tmpaclout2
++ case $acl_flavor in
++ setfacl -m user:1:1 tmpfile0
++ setfacl -b tmpfile0
++ func_test_copy tmpfile0 tmpfile8
++ echo 'Simple contents'
++ chmod 600 tmpfile8
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-copy-acl tmpfile0 tmpfile8
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-sameacls tmpfile0 tmpfile8
++ func_test_same_acls tmpfile0 tmpfile8
++ getfacl tmpfile0
++ sed -e s/tmpfile0/FILENAME/g
++ getfacl tmpfile8
++ sed -e s/tmpfile8/FILENAME/g
++ cmp tmpaclout1 tmpaclout2
++ echo
++ chmod a+x tmpfile9
++ case $acl_flavor in
++ getfacl tmpfile9
++ setfacl --set-file=- tmpfile0
++ rm -f tmpfile9
++ func_test_copy tmpfile0 tmpfile9
++ echo 'Simple contents'
++ chmod 600 tmpfile9
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-copy-acl tmpfile0 tmpfile9
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-sameacls tmpfile0 tmpfile9
++ func_test_same_acls tmpfile0 tmpfile9
++ getfacl tmpfile0
++ sed -e s/tmpfile0/FILENAME/g
++ getfacl tmpfile9
++ sed -e s/tmpfile9/FILENAME/g
++ cmp tmpaclout1 tmpaclout2
++ rm -f tmpfile0 tmpfile1 tmpfile2 tmpfile3 tmpfile4 tmpfile5 tmpfile6 tmpfile7 tmpfile8 tmpfile9 tmpaclout1 tmpaclout2
++ rm -rf /var/tmp/gl4EJVwr
++ exit 0
+PASS test-copy-acl-1.sh (exit status: 0)

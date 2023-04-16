@@ -1,0 +1,6 @@
+--- en_output	2023-04-16 22:55:34.377270582 +0000
++++ liso_output	2023-04-16 22:55:34.381270641 +0000
+@@ -1 +1 @@
+--rw-r--r-- 2 maddocks maddocks 0 Jan 15  1998 c
++-rw-r--r-- 2 maddocks maddocks 0 1998-01-15 21:00 c
+PASS tests/misc/ls-time.sh (exit status: 0)

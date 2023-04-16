@@ -1,0 +1,1 @@
+PASS tests/mkdir/p-thru-slink.sh (exit status: 0)

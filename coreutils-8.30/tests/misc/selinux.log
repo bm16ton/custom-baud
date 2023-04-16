@@ -1,0 +1,2 @@
+selinux.sh: skipped test: must be run as root
+SKIP tests/misc/selinux.sh (exit status: 77)

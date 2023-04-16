@@ -1,0 +1,1 @@
+PASS tests/tail-2/inotify-hash-abuse.sh (exit status: 0)

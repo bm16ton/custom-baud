@@ -1,0 +1,49 @@
+tail: warning: --retry ignored; --retry is useful only when following
+tail: warning: --retry ignored; --retry is useful only when following
+tail: cannot open 'missing' for reading: No such file or directory
+tail: 'missing' has appeared;  following new file
+X
+tail: warning: --retry only effective for the initial open
+tail: cannot open 'missing' for reading: No such file or directory
+tail: 'missing' has appeared;  following new file
+X1
+tail: missing: file truncated
+X
+tail: warning: --retry only effective for the initial open
+tail: cannot open 'missing' for reading: No such file or directory
+tail: 'missing' has been replaced with an untailable file; giving up on this name
+tail: no files remaining
+tail: cannot open 'missing' for reading: No such file or directory
+X
+tail: cannot open 'missing' for reading: No such file or directory
+tail: no files remaining
+tail: cannot open 'missing' for reading: No such file or directory
+tail: no files remaining
+cat: .: Is a directory
+tail: untailable: cannot follow end of this type of file
+tail: 'untailable' has become accessible
+foo
+tail: cannot open 'missing' for reading: No such file or directory
+tail: 'missing' has appeared;  following new file
+X
+tail: warning: --retry only effective for the initial open
+tail: cannot open 'missing' for reading: No such file or directory
+tail: 'missing' has appeared;  following new file
+X1
+tail: missing: file truncated
+X
+tail: warning: --retry only effective for the initial open
+tail: cannot open 'missing' for reading: No such file or directory
+tail: 'missing' has been replaced with an untailable file; giving up on this name
+tail: no files remaining
+tail: cannot open 'missing' for reading: No such file or directory
+X
+tail: cannot open 'missing' for reading: No such file or directory
+tail: no files remaining
+tail: cannot open 'missing' for reading: No such file or directory
+tail: no files remaining
+cat: .: Is a directory
+tail: untailable: cannot follow end of this type of file
+tail: 'untailable' has become accessible
+foo
+PASS tests/tail-2/retry.sh (exit status: 0)

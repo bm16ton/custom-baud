@@ -1,0 +1,1 @@
+PASS tests/tail-2/inotify-only-regular.sh (exit status: 0)

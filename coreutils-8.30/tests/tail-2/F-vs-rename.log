@@ -1,0 +1,7 @@
+x
+tail: 'a' has become inaccessible: No such file or directory
+tail: 'a' has appeared;  following new file
+x
+tail: 'a' has become inaccessible: No such file or directory
+tail: 'a' has appeared;  following new file
+PASS tests/tail-2/F-vs-rename.sh (exit status: 0)

@@ -1,0 +1,2 @@
+hardlink-case.sh: skipped test: must be run as root
+SKIP tests/mv/hardlink-case.sh (exit status: 77)

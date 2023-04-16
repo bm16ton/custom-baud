@@ -1,0 +1,35 @@
+a: OK
+ b: OK
+*c: OK
+dd: OK
+ : OK
+a: OK
+ b: OK
+*c: OK
+dd: OK
+ : OK
+a: OK
+ b: OK
+*c: OK
+dd: OK
+ : OK
+md5sum: b: No such file or directory
+b: FAILED open or read
+md5sum: c: No such file or directory
+c: FAILED open or read
+md5sum: WARNING: 2 lines are improperly formatted
+md5sum: WARNING: 2 listed files could not be read
+md5sum: the --tag option is meaningless when verifying checksums
+Try 'md5sum --help' for more information.
+md5sum: --tag does not support --text mode
+Try 'md5sum --help' for more information.
+a: OK
+ b: OK
+*c: OK
+dd: OK
+ : OK
+a\b: OK
+a\: OK
+\a\nb: OK
+a	b: OK
+PASS tests/misc/md5sum-bsd.sh (exit status: 0)

@@ -1,0 +1,1 @@
+PASS tests/misc/truncate-dangling-symlink.sh (exit status: 0)

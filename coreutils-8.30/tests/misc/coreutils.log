@@ -1,0 +1,3 @@
+coreutils: not built
+coreutils.sh: skipped test: required program(s) not built
+SKIP tests/misc/coreutils.sh (exit status: 77)

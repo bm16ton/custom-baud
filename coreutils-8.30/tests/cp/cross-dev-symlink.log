@@ -1,0 +1,2 @@
+cross-dev-symlink.sh: skipped test: must be run as root
+SKIP tests/cp/cross-dev-symlink.sh (exit status: 77)

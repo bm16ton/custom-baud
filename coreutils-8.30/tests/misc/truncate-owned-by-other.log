@@ -1,0 +1,2 @@
+truncate-owned-by-other.sh: skipped test: must be run as root
+SKIP tests/misc/truncate-owned-by-other.sh (exit status: 77)

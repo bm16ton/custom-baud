@@ -1,0 +1,2 @@
+now-owned-by-other.sh: skipped test: must be run as root
+SKIP tests/touch/now-owned-by-other.sh (exit status: 77)

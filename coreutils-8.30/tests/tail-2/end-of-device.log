@@ -1,0 +1,2 @@
+end-of-device.sh: skipped test: must be run as root
+SKIP tests/tail-2/end-of-device.sh (exit status: 77)

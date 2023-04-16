@@ -1,0 +1,6 @@
+split: option requires an argument -- 't'
+Try 'split --help' for more information.
+split: multi-character separator 'xx'
+split: multiple separator characters specified
+split: multiple separator characters specified
+PASS tests/split/record-sep.sh (exit status: 0)

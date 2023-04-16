@@ -1,0 +1,2 @@
+cat: out: input file is output file
+PASS tests/misc/cat-self.sh (exit status: 0)

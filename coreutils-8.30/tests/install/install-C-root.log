@@ -1,0 +1,2 @@
+install-C-root.sh: skipped test: must be run as root
+SKIP tests/install/install-C-root.sh (exit status: 77)

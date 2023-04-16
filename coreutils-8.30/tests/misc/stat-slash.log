@@ -1,0 +1,2 @@
+stat: cannot stat 'link1/': Not a directory
+PASS tests/misc/stat-slash.sh (exit status: 0)

@@ -1,0 +1,2 @@
+hello
+PASS tests/misc/env-S-script.sh (exit status: 0)

@@ -1,0 +1,2 @@
+capability.sh: skipped test: must be run as root
+SKIP tests/cp/capability.sh (exit status: 77)

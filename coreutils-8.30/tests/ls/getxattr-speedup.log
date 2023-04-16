@@ -1,0 +1,24 @@
+total 16
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 1
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 10
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 11
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 12
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 13
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 14
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 15
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 16
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 17
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 18
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 19
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 2
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 20
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 3
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 4
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 5
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 6
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 7
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 8
+-rw-r--r-- 1 maddocks maddocks    0 Apr 16 19:00 9
+-rw-r--r-- 1 maddocks maddocks  528 Apr 16 19:00 k.c
+-rwxr-xr-x 1 maddocks maddocks 8648 Apr 16 19:00 k.so
+PASS tests/ls/getxattr-speedup.sh (exit status: 0)

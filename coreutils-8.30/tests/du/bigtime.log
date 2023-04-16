@@ -1,0 +1,2 @@
+bigtime.sh: skipped test: file system or localtime mishandles big timestamps: -rw-r--r-- 1 maddocks maddocks 0 May 10  2446 future
+SKIP tests/du/bigtime.sh (exit status: 77)

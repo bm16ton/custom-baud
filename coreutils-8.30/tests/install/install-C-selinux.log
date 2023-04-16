@@ -1,0 +1,2 @@
+install-C-selinux.sh: skipped test: this system lacks SELinux support
+SKIP tests/install/install-C-selinux.sh (exit status: 77)

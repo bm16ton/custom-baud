@@ -1,0 +1,12 @@
+link-heap.sh: skipped test: expensive: disabled by default
+This test is relatively expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-expensive
+
+SKIP tests/cp/link-heap.sh (exit status: 77)

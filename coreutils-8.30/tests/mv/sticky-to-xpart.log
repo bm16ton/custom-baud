@@ -1,0 +1,2 @@
+sticky-to-xpart.sh: skipped test: must be run as root
+SKIP tests/mv/sticky-to-xpart.sh (exit status: 77)

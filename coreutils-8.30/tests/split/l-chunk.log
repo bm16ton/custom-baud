@@ -1,0 +1,5 @@
+split: /dev/zero: cannot determine file size: Value too large for defined data type
+rm: cannot remove 'x??': No such file or directory
+split: /dev/zero: cannot determine file size: Value too large for defined data type
+rm: cannot remove 'x??': No such file or directory
+PASS tests/split/l-chunk.sh (exit status: 0)

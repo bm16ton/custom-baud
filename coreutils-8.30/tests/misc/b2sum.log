@@ -1,0 +1,27 @@
+rm: cannot remove 'check.b2sum': No such file or directory
+a: OK
+a: OK
+ b: OK
+ b: OK
+*c: OK
+*c: OK
+44: OK
+44: OK
+ : OK
+ : OK
+a: OK
+a: OK
+ b: OK
+ b: OK
+*c: OK
+*c: OK
+44: OK
+44: OK
+ : OK
+ : OK
+/dev/null: OK
+/dev/null: OK
+/dev/null: OK
+/dev/null: OK
+b2sum: crash.check: no properly formatted BLAKE2 checksum lines found
+PASS tests/misc/b2sum.sh (exit status: 0)

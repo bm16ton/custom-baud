@@ -1,0 +1,2 @@
+cp: failed to clone 'b' from '/tmp/tmp85768/a': Invalid cross-device link
+PASS tests/cp/reflink-auto.sh (exit status: 0)

@@ -1,0 +1,1 @@
+PASS tests/du/inaccessible-cwd.sh (exit status: 0)

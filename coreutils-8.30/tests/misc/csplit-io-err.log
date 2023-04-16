@@ -1,0 +1,2 @@
+0
+PASS tests/misc/csplit-io-err.sh (exit status: 0)

@@ -1,0 +1,3 @@
+line
+line
+PASS tests/tail-2/follow-stdin.sh (exit status: 0)

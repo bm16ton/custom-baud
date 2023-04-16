@@ -1,0 +1,5 @@
+sync: cannot specify both --data and --file-system
+sync: --data needs at least one argument
+sync: error opening 'nofile': No such file or directory
+sync: error syncing 'fifo': Invalid argument
+PASS tests/misc/sync.sh (exit status: 0)

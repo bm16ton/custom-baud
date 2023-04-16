@@ -1,0 +1,7 @@
+Invalid nfd test... passed
+Invalid fd test... passed
+Unconnected socket test... passed
+Connected sockets test... passed
+General socket test with fork... passed
+Pipe test... passed
+PASS test-select (exit status: 0)

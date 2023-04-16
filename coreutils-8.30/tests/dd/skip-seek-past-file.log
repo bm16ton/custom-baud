@@ -1,0 +1,1 @@
+PASS tests/dd/skip-seek-past-file.sh (exit status: 0)

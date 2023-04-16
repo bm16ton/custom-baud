@@ -1,0 +1,1 @@
+PASS tests/chgrp/recurse.sh (exit status: 0)

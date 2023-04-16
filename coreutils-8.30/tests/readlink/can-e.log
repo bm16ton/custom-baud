@@ -1,0 +1,1 @@
+PASS tests/readlink/can-e.sh (exit status: 0)

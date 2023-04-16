@@ -1,0 +1,176 @@
+=====================================================
+   GNU coreutils 8.30: gnulib-tests/test-suite.log
+=====================================================
+
+# TOTAL: 328
+# PASS:  301
+# SKIP:  27
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+
+.. contents:: :depth: 2
+
+SKIP: test-btowc1.sh
+====================
+
+Skipping test: no traditional french locale is installed
+SKIP test-btowc1.sh (exit status: 77)
+
+SKIP: test-btowc2.sh
+====================
+
+Skipping test: no french Unicode locale is installed
+SKIP test-btowc2.sh (exit status: 77)
+
+SKIP: test-getlogin
+===================
+
+Skipping test: stdin is not a tty.
+SKIP test-getlogin (exit status: 77)
+
+SKIP: test-mbrtowc1.sh
+======================
+
+Skipping test: no traditional french locale is installed
+SKIP test-mbrtowc1.sh (exit status: 77)
+
+SKIP: test-mbrtowc2.sh
+======================
+
+Skipping test: no french Unicode locale is installed
+SKIP test-mbrtowc2.sh (exit status: 77)
+
+SKIP: test-mbrtowc3.sh
+======================
+
+Skipping test: no traditional japanese locale is installed
+SKIP test-mbrtowc3.sh (exit status: 77)
+
+SKIP: test-mbrtowc4.sh
+======================
+
+Skipping test: no transitional chinese locale is installed
+SKIP test-mbrtowc4.sh (exit status: 77)
+
+SKIP: test-mbrtowc-w32-1.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-mbrtowc-w32-1.sh (exit status: 77)
+
+SKIP: test-mbrtowc-w32-2.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-mbrtowc-w32-2.sh (exit status: 77)
+
+SKIP: test-mbrtowc-w32-3.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-mbrtowc-w32-3.sh (exit status: 77)
+
+SKIP: test-mbrtowc-w32-4.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-mbrtowc-w32-4.sh (exit status: 77)
+
+SKIP: test-mbrtowc-w32-5.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-mbrtowc-w32-5.sh (exit status: 77)
+
+SKIP: test-mbscasecmp.sh
+========================
+
+Skipping test: no turkish Unicode locale is installed
+SKIP test-mbscasecmp.sh (exit status: 77)
+
+SKIP: test-mbschr.sh
+====================
+
+Skipping test: no chinese GB18030 locale is installed
+SKIP test-mbschr.sh (exit status: 77)
+
+SKIP: test-mbsinit.sh
+=====================
+
+Skipping test: no french Unicode locale is installed
+SKIP test-mbsinit.sh (exit status: 77)
+
+SKIP: test-mbsrtowcs1.sh
+========================
+
+Skipping test: no traditional french locale is installed
+SKIP test-mbsrtowcs1.sh (exit status: 77)
+
+SKIP: test-mbsrtowcs2.sh
+========================
+
+Skipping test: no french Unicode locale is installed
+SKIP test-mbsrtowcs2.sh (exit status: 77)
+
+SKIP: test-mbsrtowcs3.sh
+========================
+
+Skipping test: no traditional japanese locale is installed
+SKIP test-mbsrtowcs3.sh (exit status: 77)
+
+SKIP: test-mbsrtowcs4.sh
+========================
+
+Skipping test: no transitional chinese locale is installed
+SKIP test-mbsrtowcs4.sh (exit status: 77)
+
+SKIP: test-mbsstr2.sh
+=====================
+
+Skipping test: no french Unicode locale is installed
+SKIP test-mbsstr2.sh (exit status: 77)
+
+SKIP: test-mbsstr3.sh
+=====================
+
+Skipping test: no chinese GB18030 locale is installed
+SKIP test-mbsstr3.sh (exit status: 77)
+
+SKIP: test-setlocale1.sh
+========================
+
+Skipping test: no locale for testing is installed
+SKIP test-setlocale1.sh (exit status: 77)
+
+SKIP: test-wcrtomb-w32-1.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-wcrtomb-w32-1.sh (exit status: 77)
+
+SKIP: test-wcrtomb-w32-2.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-wcrtomb-w32-2.sh (exit status: 77)
+
+SKIP: test-wcrtomb-w32-3.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-wcrtomb-w32-3.sh (exit status: 77)
+
+SKIP: test-wcrtomb-w32-4.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-wcrtomb-w32-4.sh (exit status: 77)
+
+SKIP: test-wcrtomb-w32-5.sh
+===========================
+
+Skipping test: not a native Windows system
+SKIP test-wcrtomb-w32-5.sh (exit status: 77)
+

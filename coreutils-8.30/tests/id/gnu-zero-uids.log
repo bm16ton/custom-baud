@@ -1,0 +1,2 @@
+gnu-zero-uids.sh: skipped test: not running on GNU/Hurd
+SKIP tests/id/gnu-zero-uids.sh (exit status: 77)

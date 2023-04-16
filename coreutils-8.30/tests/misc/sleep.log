@@ -1,0 +1,15 @@
+sleep: invalid time interval 'invalid'
+Try 'sleep --help' for more information.
+sleep: invalid time interval '-1'
+Try 'sleep --help' for more information.
+sleep: invalid time interval '42D'
+Try 'sleep --help' for more information.
+sleep: invalid time interval '42day'
+Try 'sleep --help' for more information.
+sleep: invalid time interval 'nan'
+Try 'sleep --help' for more information.
+sleep: invalid time interval ''
+Try 'sleep --help' for more information.
+sleep: missing operand
+Try 'sleep --help' for more information.
+PASS tests/misc/sleep.sh (exit status: 0)

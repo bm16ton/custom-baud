@@ -1,0 +1,8 @@
+nice: a command must be given with an adjustment
+Try 'nice --help' for more information.
+nice: unrecognized option '---'
+Try 'nice --help' for more information.
+nice: invalid adjustment '1a'
+nice: '.': Permission denied
+nice: 'no_such': No such file or directory
+PASS tests/misc/nice-fail.sh (exit status: 0)

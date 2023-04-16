@@ -1,0 +1,2 @@
+Skipping test: no transitional chinese locale is installed
+SKIP test-mbrtowc4.sh (exit status: 77)

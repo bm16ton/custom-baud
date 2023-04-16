@@ -1,0 +1,26 @@
+32+0 records in
+32+0 records out
+1048576 bytes (1.0 MB, 1.0 MiB) copied, 0.00369381 s, 284 MB/s
+dd: you probably want conv=notrunc with oflag=append
+4+0 records in
+4+0 records out
+4 bytes copied, 8.4012e-05 s, 47.6 kB/s
+4+0 records in
+4+0 records out
+4 bytes copied, 0.000211462 s, 18.9 kB/s
+4+0 records in
+4+0 records out
+4 bytes copied, 0.000170472 s, 23.5 kB/s
+3+0 records in
+3+0 records out
+3145728 bytes (3.1 MB, 3.0 MiB) copied, 0.0201968 s, 156 MB/s
+1+0 records in
+1+0 records out
+1048576 bytes (1.0 MB, 1.0 MiB) copied, 0.00189904 s, 552 MB/s
+1+1 records in
+1+1 records out
+3145728 bytes (3.1 MB, 3.0 MiB) copied, 0.0339708 s, 92.6 MB/s
+3+0 records in
+3+0 records out
+3145728 bytes (3.1 MB, 3.0 MiB) copied, 0.0106117 s, 296 MB/s
+PASS tests/dd/sparse.sh (exit status: 0)

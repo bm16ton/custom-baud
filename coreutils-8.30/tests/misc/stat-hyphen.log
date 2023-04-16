@@ -1,0 +1,2 @@
+stat: using '-' to denote standard input does not work in file system mode
+PASS tests/misc/stat-hyphen.sh (exit status: 0)

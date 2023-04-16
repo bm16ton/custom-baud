@@ -1,0 +1,2 @@
+split: the suffix length needs to be at least 3
+PASS tests/split/suffix-length.sh (exit status: 0)

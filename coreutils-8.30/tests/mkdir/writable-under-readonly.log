@@ -1,0 +1,2 @@
+writable-under-readonly.sh: skipped test: must be run as root
+SKIP tests/mkdir/writable-under-readonly.sh (exit status: 77)

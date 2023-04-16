@@ -1,0 +1,2 @@
+over-mount-device.sh: skipped test: must be run as root
+SKIP tests/df/over-mount-device.sh (exit status: 77)

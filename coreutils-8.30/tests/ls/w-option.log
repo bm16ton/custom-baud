@@ -1,0 +1,6 @@
+ls: invalid line width: '-1'
+ls: invalid line width: '08'
+a
+b
+[0m[01;32ma[0m  b  exp  out
+PASS tests/ls/w-option.sh (exit status: 0)

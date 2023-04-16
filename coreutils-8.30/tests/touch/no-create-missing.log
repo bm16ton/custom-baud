@@ -1,0 +1,1 @@
+PASS tests/touch/no-create-missing.sh (exit status: 0)

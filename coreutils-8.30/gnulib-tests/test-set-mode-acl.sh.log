@@ -1,0 +1,310 @@
++ test 1 = 0
++ func_tmpdir
++ : /tmp
++ tmp=/tmp/glsxSWaO
++ test -n /tmp/glsxSWaO
++ test -d /tmp/glsxSWaO
+++ pwd
++ builddir=/Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests
++ cd /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests
++ cd /tmp/glsxSWaO
++ rm -f 'tmpfile[0-9]'
++ echo 'Simple contents'
++ chmod 600 tmpfile0
++ acl_flavor=none
++ acl_flavor=linux
++ test linux '!=' none
++ test -f /usr/xpg4/bin/id
++ ID=id
+++ id -u
++ myuid=1000
+++ id -g
++ mygid=1000
++ auid=1
++ test 1 = 1000
++ agid=1
++ test 1 = 1000
++ for mode in 700 400 200 100 644 650 605 011 4700 2070
++ rm -f tmpfile0 tmpfile1 tmpfile2
++ echo Anything
++ chmod 700 tmpfile0
+++ dd ibs=1 count=10
+++ ls -l tmpfile0
++ modestring0=-rwx------
++ echo 'Some contents'
++ chmod 600 tmpfile1
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile1 700
+++ ls -l tmpfile1
+++ dd ibs=1 count=10
++ modestring=-rwx------
++ test x-rwx------ '!=' x-rwx------
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile1
++ test no '!=' no
++ test linux '!=' none
++ echo 'Special contents'
++ chmod 600 tmpfile2
++ case $acl_flavor in
++ setfacl -m user:1:1 tmpfile0
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile2 700
+++ ls -l tmpfile2
+++ dd ibs=1 count=10
++ modestring=-rwx------
++ test x-rwx------ '!=' x-rwx------
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile2
++ test no '!=' no
++ for mode in 700 400 200 100 644 650 605 011 4700 2070
++ rm -f tmpfile0 tmpfile1 tmpfile2
++ echo Anything
++ chmod 400 tmpfile0
+++ ls -l tmpfile0
+++ dd ibs=1 count=10
++ modestring0=-r--------
++ echo 'Some contents'
++ chmod 600 tmpfile1
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile1 400
+++ ls -l tmpfile1
+++ dd ibs=1 count=10
++ modestring=-r--------
++ test x-r-------- '!=' x-r--------
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile1
++ test no '!=' no
++ test linux '!=' none
++ echo 'Special contents'
++ chmod 600 tmpfile2
++ case $acl_flavor in
++ setfacl -m user:1:1 tmpfile0
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile2 400
+++ ls -l tmpfile2
+++ dd ibs=1 count=10
++ modestring=-r--------
++ test x-r-------- '!=' x-r--------
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile2
++ test no '!=' no
++ for mode in 700 400 200 100 644 650 605 011 4700 2070
++ rm -f tmpfile0 tmpfile1 tmpfile2
++ echo Anything
++ chmod 200 tmpfile0
+++ ls -l tmpfile0
+++ dd ibs=1 count=10
++ modestring0=--w-------
++ echo 'Some contents'
++ chmod 600 tmpfile1
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile1 200
+++ ls -l tmpfile1
+++ dd ibs=1 count=10
++ modestring=--w-------
++ test x--w------- '!=' x--w-------
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile1
++ test no '!=' no
++ test linux '!=' none
++ echo 'Special contents'
++ chmod 600 tmpfile2
++ case $acl_flavor in
++ setfacl -m user:1:1 tmpfile0
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile2 200
+++ ls -l tmpfile2
+++ dd ibs=1 count=10
++ modestring=--w-------
++ test x--w------- '!=' x--w-------
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile2
++ test no '!=' no
++ for mode in 700 400 200 100 644 650 605 011 4700 2070
++ rm -f tmpfile0 tmpfile1 tmpfile2
++ echo Anything
++ chmod 100 tmpfile0
+++ ls -l tmpfile0
+++ dd ibs=1 count=10
++ modestring0=---x------
++ echo 'Some contents'
++ chmod 600 tmpfile1
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile1 100
+++ ls -l tmpfile1
+++ dd ibs=1 count=10
++ modestring=---x------
++ test x---x------ '!=' x---x------
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile1
++ test no '!=' no
++ test linux '!=' none
++ echo 'Special contents'
++ chmod 600 tmpfile2
++ case $acl_flavor in
++ setfacl -m user:1:1 tmpfile0
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile2 100
+++ ls -l tmpfile2
+++ dd ibs=1 count=10
++ modestring=---x------
++ test x---x------ '!=' x---x------
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile2
++ test no '!=' no
++ for mode in 700 400 200 100 644 650 605 011 4700 2070
++ rm -f tmpfile0 tmpfile1 tmpfile2
++ echo Anything
++ chmod 644 tmpfile0
+++ ls -l tmpfile0
+++ dd ibs=1 count=10
++ modestring0=-rw-r--r--
++ echo 'Some contents'
++ chmod 600 tmpfile1
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile1 644
+++ ls -l tmpfile1
+++ dd ibs=1 count=10
++ modestring=-rw-r--r--
++ test x-rw-r--r-- '!=' x-rw-r--r--
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile1
++ test no '!=' no
++ test linux '!=' none
++ echo 'Special contents'
++ chmod 600 tmpfile2
++ case $acl_flavor in
++ setfacl -m user:1:1 tmpfile0
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile2 644
+++ ls -l tmpfile2
+++ dd ibs=1 count=10
++ modestring=-rw-r--r--
++ test x-rw-r--r-- '!=' x-rw-r--r--
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile2
++ test no '!=' no
++ for mode in 700 400 200 100 644 650 605 011 4700 2070
++ rm -f tmpfile0 tmpfile1 tmpfile2
++ echo Anything
++ chmod 650 tmpfile0
+++ ls -l tmpfile0
+++ dd ibs=1 count=10
++ modestring0=-rw-r-x---
++ echo 'Some contents'
++ chmod 600 tmpfile1
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile1 650
+++ ls -l tmpfile1
+++ dd ibs=1 count=10
++ modestring=-rw-r-x---
++ test x-rw-r-x--- '!=' x-rw-r-x---
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile1
++ test no '!=' no
++ test linux '!=' none
++ echo 'Special contents'
++ chmod 600 tmpfile2
++ case $acl_flavor in
++ setfacl -m user:1:1 tmpfile0
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile2 650
+++ ls -l tmpfile2
+++ dd ibs=1 count=10
++ modestring=-rw-r-x---
++ test x-rw-r-x--- '!=' x-rw-r-x---
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile2
++ test no '!=' no
++ for mode in 700 400 200 100 644 650 605 011 4700 2070
++ rm -f tmpfile0 tmpfile1 tmpfile2
++ echo Anything
++ chmod 605 tmpfile0
+++ ls -l tmpfile0
+++ dd ibs=1 count=10
++ modestring0=-rw----r-x
++ echo 'Some contents'
++ chmod 600 tmpfile1
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile1 605
+++ ls -l tmpfile1
+++ dd ibs=1 count=10
++ modestring=-rw----r-x
++ test x-rw----r-x '!=' x-rw----r-x
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile1
++ test no '!=' no
++ test linux '!=' none
++ echo 'Special contents'
++ chmod 600 tmpfile2
++ case $acl_flavor in
++ setfacl -m user:1:1 tmpfile0
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile2 605
+++ ls -l tmpfile2
+++ dd ibs=1 count=10
++ modestring=-rw----r-x
++ test x-rw----r-x '!=' x-rw----r-x
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile2
++ test no '!=' no
++ for mode in 700 400 200 100 644 650 605 011 4700 2070
++ rm -f tmpfile0 tmpfile1 tmpfile2
++ echo Anything
++ chmod 011 tmpfile0
+++ ls -l tmpfile0
+++ dd ibs=1 count=10
++ modestring0=------x--x
++ echo 'Some contents'
++ chmod 600 tmpfile1
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile1 011
+++ ls -l tmpfile1
+++ dd ibs=1 count=10
++ modestring=------x--x
++ test x------x--x '!=' x------x--x
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile1
++ test no '!=' no
++ test linux '!=' none
++ echo 'Special contents'
++ chmod 600 tmpfile2
++ case $acl_flavor in
++ setfacl -m user:1:1 tmpfile0
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile2 011
+++ ls -l tmpfile2
+++ dd ibs=1 count=10
++ modestring=------x--x
++ test x------x--x '!=' x------x--x
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile2
++ test no '!=' no
++ for mode in 700 400 200 100 644 650 605 011 4700 2070
++ rm -f tmpfile0 tmpfile1 tmpfile2
++ echo Anything
++ chmod 4700 tmpfile0
+++ ls -l tmpfile0
+++ dd ibs=1 count=10
++ modestring0=-rws------
++ echo 'Some contents'
++ chmod 600 tmpfile1
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile1 4700
+++ ls -l tmpfile1
+++ dd ibs=1 count=10
++ modestring=-rws------
++ test x-rws------ '!=' x-rws------
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile1
++ test no '!=' no
++ test linux '!=' none
++ echo 'Special contents'
++ chmod 600 tmpfile2
++ case $acl_flavor in
++ setfacl -m user:1:1 tmpfile0
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile2 4700
+++ ls -l tmpfile2
+++ dd ibs=1 count=10
++ modestring=-rws------
++ test x-rws------ '!=' x-rws------
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile2
++ test no '!=' no
++ for mode in 700 400 200 100 644 650 605 011 4700 2070
++ rm -f tmpfile0 tmpfile1 tmpfile2
++ echo Anything
++ chmod 2070 tmpfile0
+++ ls -l tmpfile0
+++ dd ibs=1 count=10
++ modestring0=----rws---
++ echo 'Some contents'
++ chmod 600 tmpfile1
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile1 2070
+++ ls -l tmpfile1
+++ dd ibs=1 count=10
++ modestring=----rws---
++ test x----rws--- '!=' x----rws---
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile1
++ test no '!=' no
++ test linux '!=' none
++ echo 'Special contents'
++ chmod 600 tmpfile2
++ case $acl_flavor in
++ setfacl -m user:1:1 tmpfile0
++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-set-mode-acl tmpfile2 2070
+++ ls -l tmpfile2
+++ dd ibs=1 count=10
++ modestring=----rws---
++ test x----rws--- '!=' x----rws---
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile2
++ test no '!=' no
++ rm -f tmpfile0 tmpfile1 tmpfile2
++ rm -rf /tmp/glsxSWaO
++ exit 0
+PASS test-set-mode-acl.sh (exit status: 0)

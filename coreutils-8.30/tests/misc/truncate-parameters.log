@@ -1,0 +1,12 @@
+truncate: missing file operand
+Try 'truncate --help' for more information.
+truncate: you must specify either '--size' or '--reference'
+Try 'truncate --help' for more information.
+truncate: you must specify a relative '--size' with '--reference'
+Try 'truncate --help' for more information.
+truncate: '--io-blocks' was specified but '--size' was not
+Try 'truncate --help' for more information.
+truncate: Invalid number: 'invalid'
+truncate: multiple relative modifiers specified
+Try 'truncate --help' for more information.
+PASS tests/misc/truncate-parameters.sh (exit status: 0)

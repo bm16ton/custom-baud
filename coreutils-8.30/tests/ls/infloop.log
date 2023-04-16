@@ -1,0 +1,1 @@
+PASS tests/ls/infloop.sh (exit status: 0)

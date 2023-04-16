@@ -1,0 +1,7 @@
+tail: cannot open 'missing' for reading: No such file or directory
+tail: no files remaining
+tail: standard output: Bad file descriptor
+tail: cannot open 'missing' for reading: No such file or directory
+tail: no files remaining
+tail: standard output: Bad file descriptor
+PASS tests/tail-2/pipe-f.sh (exit status: 0)

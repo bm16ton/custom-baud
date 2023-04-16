@@ -1,0 +1,3 @@
+true: write error: No space left on device
+true: write error: No space left on device
+PASS tests/misc/false-status.sh (exit status: 0)

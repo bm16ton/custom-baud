@@ -1,0 +1,4 @@
+./tests/init.sh: line 114: 71965 Killed                  "$@"
+./tests/misc/timeout.sh: line 65: 71974 Killed                  timeout $opt -s0 -k .1 .1 sleep 10 2> errt
+./tests/misc/timeout.sh: line 65: 71978 Killed                  timeout $opt -s0 -k .1 .1 sleep 10 2> errt
+PASS tests/misc/timeout.sh (exit status: 0)

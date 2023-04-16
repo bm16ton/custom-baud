@@ -1,0 +1,2 @@
+df: no file systems processed
+PASS tests/cp/sparse-fiemap.sh (exit status: 0)

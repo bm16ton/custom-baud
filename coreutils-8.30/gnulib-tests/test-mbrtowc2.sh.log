@@ -1,0 +1,2 @@
+Skipping test: no french Unicode locale is installed
+SKIP test-mbrtowc2.sh (exit status: 77)

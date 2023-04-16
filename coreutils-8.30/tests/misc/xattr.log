@@ -1,0 +1,11 @@
+user.foo="bar"
+user.foo="bar"
+user.foo="bar"
+user.foo="bar"
+user.foo="bar"
+user.foo="bar"
+getfattr: Removing leading '/' from absolute path names
+user.foo="bar"
+getfattr: Removing leading '/' from absolute path names
+user.foo="bar"
+PASS tests/misc/xattr.sh (exit status: 0)

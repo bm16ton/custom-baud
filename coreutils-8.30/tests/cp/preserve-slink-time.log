@@ -1,0 +1,1 @@
+PASS tests/cp/preserve-slink-time.sh (exit status: 0)

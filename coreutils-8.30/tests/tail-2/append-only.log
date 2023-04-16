@@ -1,0 +1,2 @@
+append-only.sh: skipped test: must be run as root
+SKIP tests/tail-2/append-only.sh (exit status: 77)

@@ -1,0 +1,15 @@
+shuf: no lines to repeat
+shuf: extra operand '1'
+Try 'shuf --help' for more information.
+shuf: unreadable: Permission denied
+shuf: cannot combine -e and -i options
+Try 'shuf --help' for more information.
+shuf: invalid line count: 'A'
+shuf: multiple -i options specified
+shuf: invalid input range: '1'
+shuf: invalid input range: 'A'
+shuf: invalid input range: ''
+shuf: invalid input range: 'A'
+shuf: multiple output files specified
+shuf: multiple random sources specified
+PASS tests/misc/shuf.sh (exit status: 0)

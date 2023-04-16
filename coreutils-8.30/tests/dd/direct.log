@@ -1,0 +1,2 @@
+direct.sh: skipped test: 512 byte aligned O_DIRECT is not supported on this (file) system
+SKIP tests/dd/direct.sh (exit status: 77)

@@ -1,0 +1,6 @@
+One byte greater than a/b/3.
+Exactly the size of a/b/3.
+Exactly the size of a/b/2.
+Exactly the size of a/b/1.
+Exactly the size of a/b/0.
+PASS tests/du/threshold.sh (exit status: 0)

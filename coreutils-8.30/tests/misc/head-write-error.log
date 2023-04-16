@@ -1,0 +1,1 @@
+PASS tests/misc/head-write-error.sh (exit status: 0)

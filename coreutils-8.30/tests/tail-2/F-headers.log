@@ -1,0 +1,7 @@
+tail: cannot open 'b' for reading: No such file or directory
+==> a <==
+==> b <==
+tail: cannot open 'b' for reading: No such file or directory
+==> a <==
+==> b <==
+PASS tests/tail-2/F-headers.sh (exit status: 0)

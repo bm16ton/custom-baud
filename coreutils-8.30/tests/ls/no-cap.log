@@ -1,0 +1,2 @@
+capget({version=_LINUX_CAPABILITY_VERSION_3, pid=0}, NULL) = 0
+PASS tests/ls/no-cap.sh (exit status: 0)

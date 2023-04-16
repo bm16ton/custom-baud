@@ -1,0 +1,3 @@
+nproc: invalid number: '-1'
+nproc: invalid number: 'N'
+PASS tests/misc/nproc-positive.sh (exit status: 0)

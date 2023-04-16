@@ -1,0 +1,28 @@
+10+0 records in
+10+0 records out
+5120 bytes (5.1 kB, 5.0 KiB) copied, 0.00018318 s, 28.0 MB/s
+10+0 records in
+10+0 records out
+5120 bytes (5.1 kB, 5.0 KiB) copied, 0.000368078 s, 13.9 MB/s
+10+0 records in
+10+0 records out
+5120 bytes (5.1 kB, 5.0 KiB) copied, 0.000119273 s, 42.9 MB/s
+10+0 records in
+10+0 records out
+5120 bytes (5.1 kB, 5.0 KiB) copied, 0.000267505 s, 19.1 MB/s
+10+0 records in
+10+0 records out
+5120 bytes (5.1 kB, 5.0 KiB) copied, 0.000156982 s, 32.6 MB/s
+10+0 records in
+10+0 records out
+5120 bytes (5.1 kB, 5.0 KiB) copied, 0.0002799 s, 18.3 MB/s
+10+0 records in
+10+0 records out
+5120 bytes (5.1 kB, 5.0 KiB) copied, 0.000264952 s, 19.3 MB/s
+10+0 records in
+10+0 records out
+5120 bytes (5.1 kB, 5.0 KiB) copied, 0.000353599 s, 14.5 MB/s
+10+0 records in
+10+0 records out
+5120 bytes (5.1 kB, 5.0 KiB) copied, 0.000302088 s, 16.9 MB/s
+PASS tests/cp/fiemap-extents.sh (exit status: 0)

@@ -1,0 +1,4 @@
+truncate: Invalid number: '9223372036854775808': Value too large for defined data type
+truncate: overflow extending size of file 'non-empty-file'
+truncate: overflow in 2251799813685248 * 4096 byte blocks for file 'file'
+PASS tests/misc/truncate-overflow.sh (exit status: 0)

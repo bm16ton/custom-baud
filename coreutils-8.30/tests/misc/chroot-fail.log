@@ -1,0 +1,6 @@
+chroot: missing operand
+Try 'chroot --help' for more information.
+chroot: unrecognized option '---'
+Try 'chroot --help' for more information.
+chroot: cannot change root directory to '/': Operation not permitted
+PASS tests/misc/chroot-fail.sh (exit status: 0)

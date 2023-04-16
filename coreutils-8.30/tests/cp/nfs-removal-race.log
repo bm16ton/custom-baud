@@ -1,0 +1,1 @@
+PASS tests/cp/nfs-removal-race.sh (exit status: 0)

@@ -1,0 +1,13 @@
+tail: cannot open 'not_here' for reading: No such file or directory
+tail: no files remaining
+tail: cannot open 'unreadable' for reading: Permission denied
+tail: no files remaining
+tail: cannot open 'unreadable' for reading: Permission denied
+tail: cannot open 'not_here' for reading: No such file or directory
+tail: cannot open 'not_here' for reading: No such file or directory
+tail: no files remaining
+tail: cannot open 'unreadable' for reading: Permission denied
+tail: no files remaining
+tail: cannot open 'unreadable' for reading: Permission denied
+tail: cannot open 'not_here' for reading: No such file or directory
+PASS tests/tail-2/wait.sh (exit status: 0)

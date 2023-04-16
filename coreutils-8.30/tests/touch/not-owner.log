@@ -1,0 +1,1 @@
+PASS tests/touch/not-owner.sh (exit status: 0)

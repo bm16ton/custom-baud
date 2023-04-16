@@ -1,0 +1,2 @@
+1
+PASS tests/misc/uniq-perf.sh (exit status: 0)

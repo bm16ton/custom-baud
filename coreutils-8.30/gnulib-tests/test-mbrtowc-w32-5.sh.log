@@ -1,0 +1,2 @@
+Skipping test: not a native Windows system
+SKIP test-mbrtowc-w32-5.sh (exit status: 77)

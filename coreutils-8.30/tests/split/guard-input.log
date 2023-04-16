@@ -1,0 +1,5 @@
+split: 'xaa' would overwrite input; aborting
+split: 'xaa' would overwrite input; aborting
+split: 'xaa' would overwrite input; aborting
+split: 'xaa' would overwrite input; aborting
+PASS tests/split/guard-input.sh (exit status: 0)

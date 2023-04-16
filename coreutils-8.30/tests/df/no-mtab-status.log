@@ -1,0 +1,41 @@
+Filesystem     1K-blocks      Used Available Use% Mounted on
+udev             3392876         0   3392876   0% /dev
+tmpfs             695700      1928    693772   1% /run
+/dev/sda6       53768512  48486448   2518288  96% /
+tmpfs            3478496         0   3478496   0% /dev/shm
+tmpfs               5120         4      5116   1% /run/lock
+tmpfs            3478496         0   3478496   0% /sys/fs/cgroup
+/dev/sda4       56402444  41860076  11644860  79% /Part
+/dev/sda1         262144     89432    172712  35% /boot/efi
+tmpfs             695696        32    695664   1% /run/user/1000
+/dev/sdh1      960310988 240647260 670809304  27% /media/maddocks/0e5c8f59-b86e-4423-a28c-b3830408c50a5
+df: Warning: cannot read table of mounted file systems: No such file or directory
+Filesystem     1K-blocks     Used Available Use% Mounted on
+-               56402444 41860096  11644840  79% /Part
+df: Warning: cannot read table of mounted file systems: No such file or directory
+Filesystem      Inodes  IUsed   IFree IUse% Mounted on
+-              3604480 918803 2685677   26% /Part
+df: Warning: cannot read table of mounted file systems: No such file or directory
+Filesystem     Type 1K-blocks     Used Available Use% Mounted on
+-              -     56402444 41860096  11644840  79% /Part
+df: Warning: cannot read table of mounted file systems: No such file or directory
+Filesystem     Type  Inodes  IUsed   IFree IUse% Mounted on
+-              -    3604480 918803 2685677   26% /Part
+df: Warning: cannot read table of mounted file systems: No such file or directory
+Filesystem     1K-blocks     Used Available Use% Mounted on
+-               56402444 41860096  11644840  79% /Part
+total           56402444 41860096  11644840  79% -
+df: cannot read table of mounted file systems: No such file or directory
+df: cannot read table of mounted file systems: No such file or directory
+df: cannot read table of mounted file systems: No such file or directory
+df: cannot read table of mounted file systems: No such file or directory
+df: cannot read table of mounted file systems: No such file or directory
+df: cannot read table of mounted file systems: No such file or directory
+df: cannot read table of mounted file systems: No such file or directory
+df: cannot read table of mounted file systems: No such file or directory
+df: cannot read table of mounted file systems: No such file or directory
+df: cannot read table of mounted file systems: No such file or directory
+df: cannot read table of mounted file systems: No such file or directory
+df: cannot read table of mounted file systems: No such file or directory
+df: cannot read table of mounted file systems: No such file or directory
+PASS tests/df/no-mtab-status.sh (exit status: 0)

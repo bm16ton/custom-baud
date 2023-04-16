@@ -1,0 +1,1 @@
+PASS tests/chown/preserve-root.sh (exit status: 0)

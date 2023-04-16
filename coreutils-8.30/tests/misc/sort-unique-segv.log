@@ -1,0 +1,1 @@
+PASS tests/misc/sort-unique-segv.sh (exit status: 0)

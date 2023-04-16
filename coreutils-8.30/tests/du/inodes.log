@@ -1,0 +1,2 @@
+'d/h' => 'd/f'
+PASS tests/du/inodes.sh (exit status: 0)

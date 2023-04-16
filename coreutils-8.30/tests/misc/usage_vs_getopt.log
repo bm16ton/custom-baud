@@ -1,0 +1,1692 @@
+arch: unrecognized option '--thisoptiondoesnotexist'
+arch: invalid option -- '/'
+--help
+b2sum: unrecognized option '--thisoptiondoesnotexist'
+b2sum: invalid option -- '/'
+-b
+  --binary
+-c
+  --check
+-l
+  --length
+--tag
+-t
+  --text
+-z
+  --zero
+--ignore-missing
+--quiet
+--status
+--strict
+-w
+  --warn
+--help
+base32: unrecognized option '--thisoptiondoesnotexist'
+base32: invalid option -- '/'
+-d
+  --decode
+-i
+  --ignore-garbage
+-w
+  --wrap
+--help
+base64: unrecognized option '--thisoptiondoesnotexist'
+base64: invalid option -- '/'
+-d
+  --decode
+-i
+  --ignore-garbage
+-w
+  --wrap
+--help
+basename: unrecognized option '--thisoptiondoesnotexist'
+basename: invalid option -- '/'
+-a
+  --multiple
+-s
+  --suffix
+-z
+  --zero
+--help
+cat: unrecognized option '--thisoptiondoesnotexist'
+cat: invalid option -- '/'
+-A
+  --show-all
+-b
+  --number-nonblank
+-e
+-E
+  --show-ends
+-n
+  --number
+-s
+  --squeeze-blank
+-t
+-T
+  --show-tabs
+-u
+-v
+  --show-nonprinting
+--help
+chcon: unrecognized option '--thisoptiondoesnotexist'
+chcon: invalid option -- '/'
+--dereference
+-h
+  --no-dereference
+-u
+  --user
+-r
+  --role
+-t
+  --type
+-l
+  --range
+--no-preserve-root
+--preserve-root
+--reference
+-R
+  --recursive
+-v
+  --verbose
+-H
+-L
+-P
+--help
+chgrp: unrecognized option '--thisoptiondoesnotexist'
+chgrp: invalid option -- '/'
+-c
+  --changes
+-f
+  --silent
+  --quiet
+-v
+  --verbose
+--dereference
+-h
+  --no-dereference
+--no-preserve-root
+--preserve-root
+--reference
+-R
+  --recursive
+-H
+-L
+-P
+--help
+chmod: unrecognized option '--thisoptiondoesnotexist'
+chmod: invalid option -- '/'
+-c
+  --changes
+-f
+  --silent
+  --quiet
+-v
+  --verbose
+--no-preserve-root
+--preserve-root
+--reference
+-R
+  --recursive
+--help
+chown: unrecognized option '--thisoptiondoesnotexist'
+chown: invalid option -- '/'
+-c
+  --changes
+-f
+  --silent
+  --quiet
+-v
+  --verbose
+--dereference
+-h
+  --no-dereference
+--from
+--no-preserve-root
+--preserve-root
+--reference
+-R
+  --recursive
+-H
+-L
+-P
+--help
+chroot: unrecognized option '--thisoptiondoesnotexist'
+chroot: invalid option -- '/'
+--groups
+--userspec
+--skip-chdir
+--help
+cksum: unrecognized option '--thisoptiondoesnotexist'
+cksum: invalid option -- '/'
+--help
+comm: unrecognized option '--thisoptiondoesnotexist'
+comm: invalid option -- '/'
+-1
+-2
+-3
+--check-order
+--nocheck-order
+--output-delimiter
+--total
+-z
+  --zero-terminated
+--help
+cp: unrecognized option '--thisoptiondoesnotexist'
+cp: invalid option -- '/'
+-a
+  --archive
+--attributes-only
+--backup
+-b
+--copy-contents
+-d
+-f
+  --force
+-i
+  --interactive
+-H
+-l
+  --link
+-L
+  --dereference
+-n
+  --no-clobber
+-P
+  --no-dereference
+-p
+--preserve
+--no-preserve
+--parents
+-R
+  -r
+  --recursive
+--reflink
+--remove-destination
+--sparse
+--strip-trailing-slashes
+-s
+  --symbolic-link
+-S
+  --suffix
+-t
+  --target-directory
+-T
+  --no-target-directory
+-u
+  --update
+-v
+  --verbose
+-x
+  --one-file-system
+-Z
+--context
+--help
+csplit: unrecognized option '--thisoptiondoesnotexist'
+csplit: invalid option -- '/'
+-b
+  --suffix-format
+-f
+  --prefix
+-k
+  --keep-files
+--suppress-matched
+-n
+  --digits
+-s
+  --quiet
+  --silent
+-z
+  --elide-empty-files
+--help
+cut: unrecognized option '--thisoptiondoesnotexist'
+cut: invalid option -- '/'
+-b
+  --bytes
+-c
+  --characters
+-d
+  --delimiter
+-f
+  --fields
+-n
+--complement
+-s
+  --only-delimited
+--output-delimiter
+-z
+  --zero-terminated
+--help
+date: unrecognized option '--thisoptiondoesnotexist'
+date: invalid option -- '/'
+-d
+  --date
+--debug
+-f
+  --file
+-I
+-R
+  --rfc-email
+--rfc-3339
+-r
+  --reference
+-s
+  --set
+-u
+  --utc
+  --universal
+--help
+dd: unrecognized option '--thisoptiondoesnotexist'
+dd: invalid option -- '/'
+--help
+df: unrecognized option '--thisoptiondoesnotexist'
+df: invalid option -- '/'
+-a
+  --all
+-B
+  --block-size
+-h
+  --human-readable
+-H
+  --si
+-i
+  --inodes
+-k
+-l
+  --local
+--no-sync
+--output
+-P
+  --portability
+--sync
+--total
+-t
+  --type
+-T
+  --print-type
+-x
+  --exclude-type
+-v
+--help
+dir: unrecognized option '--thisoptiondoesnotexist'
+dir: invalid option -- '/'
+-a
+  --all
+-A
+  --almost-all
+--author
+-b
+  --escape
+--block-size
+-B
+  --ignore-backups
+-c
+-C
+--color
+-d
+  --directory
+-D
+  --dired
+-f
+-F
+  --classify
+--file-type
+--format
+--full-time
+-g
+--group-directories-first
+-G
+  --no-group
+-h
+  --human-readable
+--si
+-H
+  --dereference-command-line
+--dereference-command-line-symlink-to-dir
+--hide
+--hyperlink
+--indicator-style
+-i
+  --inode
+-I
+  --ignore
+-k
+  --kibibytes
+-l
+-L
+  --dereference
+-m
+-n
+  --numeric-uid-gid
+-N
+  --literal
+-o
+-p
+  --indicator-style
+-q
+  --hide-control-chars
+--show-control-chars
+-Q
+  --quote-name
+--quoting-style
+-r
+  --reverse
+-R
+  --recursive
+-s
+  --size
+-S
+--sort
+--time
+--time-style
+-t
+-T
+  --tabsize
+-u
+-U
+-v
+-w
+  --width
+-x
+-X
+-Z
+  --context
+-1
+--help
+dircolors: unrecognized option '--thisoptiondoesnotexist'
+dircolors: invalid option -- '/'
+-b
+  --sh
+  --bourne-shell
+-c
+  --csh
+  --c-shell
+-p
+  --print-database
+--help
+dirname: unrecognized option '--thisoptiondoesnotexist'
+dirname: invalid option -- '/'
+-z
+  --zero
+--help
+du: unrecognized option '--thisoptiondoesnotexist'
+du: invalid option -- '/'
+-0
+  --null
+-a
+  --all
+--apparent-size
+-B
+  --block-size
+-b
+  --bytes
+-c
+  --total
+-D
+  --dereference-args
+-d
+  --max-depth
+--files0-from
+-H
+-h
+  --human-readable
+--inodes
+-k
+-L
+  --dereference
+-l
+  --count-links
+-m
+-P
+  --no-dereference
+-S
+  --separate-dirs
+--si
+-s
+  --summarize
+-t
+  --threshold
+--time
+--time
+--time-style
+-X
+  --exclude-from
+--exclude
+-x
+  --one-file-system
+--help
+env: unrecognized option '--thisoptiondoesnotexist'
+env: invalid option -- '/'
+-i
+  --ignore-environment
+-0
+  --null
+-u
+  --unset
+-C
+  --chdir
+-S
+  --split-string
+-v
+  --debug
+--help
+env: unrecognized option '--thisoptiondoesnotexist'
+env: invalid option -- '/'
+-i
+  --ignore-environment
+-0
+  --null
+-u
+  --unset
+-C
+  --chdir
+-S
+  --split-string
+-v
+  --debug
+--help
+expand: unrecognized option '--thisoptiondoesnotexist'
+expand: invalid option -- '/'
+-i
+  --initial
+-t
+  --tabs
+-t
+  --tabs
+--help
+factor: unrecognized option '--thisoptiondoesnotexist'
+factor: invalid option -- '/'
+--help
+env: unrecognized option '--thisoptiondoesnotexist'
+env: invalid option -- '/'
+-i
+  --ignore-environment
+-0
+  --null
+-u
+  --unset
+-C
+  --chdir
+-S
+  --split-string
+-v
+  --debug
+--help
+fmt: unrecognized option '--thisoptiondoesnotexist'
+fmt: invalid option -- '/'
+-c
+  --crown-margin
+-p
+  --prefix
+-s
+  --split-only
+-t
+  --tagged-paragraph
+-u
+  --uniform-spacing
+-w
+  --width
+-g
+  --goal
+--help
+fold: unrecognized option '--thisoptiondoesnotexist'
+fold: invalid option -- '/'
+-b
+  --bytes
+-s
+  --spaces
+-w
+  --width
+--help
+ginstall: unrecognized option '--thisoptiondoesnotexist'
+ginstall: invalid option -- '/'
+--backup
+-b
+-c
+-C
+  --compare
+-d
+  --directory
+-D
+-g
+  --group
+-m
+  --mode
+-o
+  --owner
+-p
+  --preserve-timestamps
+-s
+  --strip
+--strip-program
+-S
+  --suffix
+-t
+  --target-directory
+-T
+  --no-target-directory
+-v
+  --verbose
+--preserve-context
+-Z
+--context
+--help
+groups: unrecognized option '--thisoptiondoesnotexist'
+groups: invalid option -- '/'
+--help
+head: unrecognized option '--thisoptiondoesnotexist'
+head: invalid option -- '/'
+-c
+  --bytes
+-n
+  --lines
+-q
+  --quiet
+  --silent
+-v
+  --verbose
+-z
+  --zero-terminated
+--help
+hostid: unrecognized option '--thisoptiondoesnotexist'
+hostid: invalid option -- '/'
+--help
+id: unrecognized option '--thisoptiondoesnotexist'
+id: invalid option -- '/'
+-a
+-Z
+  --context
+-g
+  --group
+-G
+  --groups
+-n
+  --name
+-r
+  --real
+-u
+  --user
+-z
+  --zero
+--help
+join: unrecognized option '--thisoptiondoesnotexist'
+join: invalid option -- '/'
+-a FILENUM
+-e EMPTY
+-i
+  --ignore-case
+-j FIELD
+-o FORMAT
+-t CHAR
+-v FILENUM
+-1 FIELD
+-2 FIELD
+--check-order
+--nocheck-order
+--header
+-z
+  --zero-terminated
+--help
+env: unrecognized option '--thisoptiondoesnotexist'
+env: invalid option -- '/'
+-i
+  --ignore-environment
+-0
+  --null
+-u
+  --unset
+-C
+  --chdir
+-S
+  --split-string
+-v
+  --debug
+--help
+link: unrecognized option '--thisoptiondoesnotexist'
+link: invalid option -- '/'
+--help
+ln: unrecognized option '--thisoptiondoesnotexist'
+ln: invalid option -- '/'
+--backup
+-b
+-d
+  -F
+  --directory
+-f
+  --force
+-i
+  --interactive
+-L
+  --logical
+-n
+  --no-dereference
+-P
+  --physical
+-r
+  --relative
+-s
+  --symbolic
+-S
+  --suffix
+-t
+  --target-directory
+-T
+  --no-target-directory
+-v
+  --verbose
+--help
+logname: unrecognized option '--thisoptiondoesnotexist'
+logname: invalid option -- '/'
+--help
+ls: unrecognized option '--thisoptiondoesnotexist'
+ls: invalid option -- '/'
+-a
+  --all
+-A
+  --almost-all
+--author
+-b
+  --escape
+--block-size
+-B
+  --ignore-backups
+-c
+-C
+--color
+-d
+  --directory
+-D
+  --dired
+-f
+-F
+  --classify
+--file-type
+--format
+--full-time
+-g
+--group-directories-first
+-G
+  --no-group
+-h
+  --human-readable
+--si
+-H
+  --dereference-command-line
+--dereference-command-line-symlink-to-dir
+--hide
+--hyperlink
+--indicator-style
+-i
+  --inode
+-I
+  --ignore
+-k
+  --kibibytes
+-l
+-L
+  --dereference
+-m
+-n
+  --numeric-uid-gid
+-N
+  --literal
+-o
+-p
+  --indicator-style
+-q
+  --hide-control-chars
+--show-control-chars
+-Q
+  --quote-name
+--quoting-style
+-r
+  --reverse
+-R
+  --recursive
+-s
+  --size
+-S
+--sort
+--time
+--time-style
+-t
+-T
+  --tabsize
+-u
+-U
+-v
+-w
+  --width
+-x
+-X
+-Z
+  --context
+-1
+--help
+md5sum: unrecognized option '--thisoptiondoesnotexist'
+md5sum: invalid option -- '/'
+-b
+  --binary
+-c
+  --check
+--tag
+-t
+  --text
+-z
+  --zero
+--ignore-missing
+--quiet
+--status
+--strict
+-w
+  --warn
+--help
+mkdir: unrecognized option '--thisoptiondoesnotexist'
+mkdir: invalid option -- '/'
+-m
+  --mode
+-p
+  --parents
+-v
+  --verbose
+-Z
+--context
+--help
+mkfifo: unrecognized option '--thisoptiondoesnotexist'
+mkfifo: invalid option -- '/'
+-m
+  --mode
+-Z
+--context
+--help
+mknod: unrecognized option '--thisoptiondoesnotexist'
+mknod: invalid option -- '/'
+-m
+  --mode
+-Z
+--context
+--help
+mktemp: unrecognized option '--thisoptiondoesnotexist'
+mktemp: invalid option -- '/'
+-d
+  --directory
+-u
+  --dry-run
+-q
+  --quiet
+--suffix
+-p DIR
+  --tmpdir
+-t
+--help
+mv: unrecognized option '--thisoptiondoesnotexist'
+mv: invalid option -- '/'
+--backup
+-b
+-f
+  --force
+-i
+  --interactive
+-n
+  --no-clobber
+--strip-trailing-slashes
+-S
+  --suffix
+-t
+  --target-directory
+-T
+  --no-target-directory
+-u
+  --update
+-v
+  --verbose
+-Z
+  --context
+--help
+nice: unrecognized option '--thisoptiondoesnotexist'
+nice: invalid option -- '/'
+-20 (most favorable to the process) to 19 (least favorable to the process).
+-n
+  --adjustment
+--help
+nl: unrecognized option '--thisoptiondoesnotexist'
+nl: invalid option -- '/'
+-b
+  --body-numbering
+-d
+  --section-delimiter
+-f
+  --footer-numbering
+-h
+  --header-numbering
+-i
+  --line-increment
+-l
+  --join-blank-lines
+-n
+  --number-format
+-p
+  --no-renumber
+-s
+  --number-separator
+-v
+  --starting-line-number
+-w
+  --number-width
+--help
+nohup: unrecognized option '--thisoptiondoesnotexist'
+nohup: invalid option -- '/'
+--help
+nproc: unrecognized option '--thisoptiondoesnotexist'
+nproc: invalid option -- '/'
+--all
+--ignore
+--help
+numfmt: unrecognized option '--thisoptiondoesnotexist'
+numfmt: invalid option -- '/'
+--debug
+-d
+  --delimiter
+--field
+--format
+--from
+--from-unit
+--grouping
+--header
+--invalid
+--padding
+--round
+--suffix
+--to
+--to-unit
+-z
+  --zero-terminated
+--help
+od: unrecognized option '--thisoptiondoesnotexist'
+od: invalid option -- '/'
+-A
+  --address-radix
+--endian
+-j
+  --skip-bytes
+-N
+  --read-bytes
+-S BYTES
+  --strings
+-t
+  --format
+-v
+  --output-duplicates
+-w
+--traditional
+--help
+paste: unrecognized option '--thisoptiondoesnotexist'
+paste: invalid option -- '/'
+-d
+  --delimiters
+-s
+  --serial
+-z
+  --zero-terminated
+--help
+pathchk: unrecognized option '--thisoptiondoesnotexist'
+pathchk: invalid option -- '/'
+-p
+-P
+--portability
+--help
+pinky: unrecognized option '--thisoptiondoesnotexist'
+pinky: invalid option -- '/'
+-l
+-b
+-h
+-p
+-s
+-f
+-w
+-i
+-q
+--help
+pr: unrecognized option '--thisoptiondoesnotexist'
+pr: invalid option -- '/'
+-COLUMN
+  --columns
+-a
+  --across
+-c
+  --show-control-chars
+-d
+  --double-space
+-D
+  --date-format
+-e
+-F
+  -f
+  --form-feed
+-h
+  --header
+-i
+-J
+  --join-lines
+-l
+  --length
+-m
+  --merge
+-n
+-N
+  --first-line-number
+-o
+  --indent
+-r
+  --no-file-warnings
+-s
+-S
+-t
+  --omit-header
+-T
+  --omit-pagination
+-v
+  --show-nonprinting
+-w
+  --width
+-W
+  --page-width
+--help
+printenv: unrecognized option '--thisoptiondoesnotexist'
+printenv: invalid option -- '/'
+-0
+  --null
+--help
+env: unrecognized option '--thisoptiondoesnotexist'
+env: invalid option -- '/'
+-i
+  --ignore-environment
+-0
+  --null
+-u
+  --unset
+-C
+  --chdir
+-S
+  --split-string
+-v
+  --debug
+--help
+ptx: unrecognized option '--thisoptiondoesnotexist'
+ptx: invalid option -- '/'
+-A
+  --auto-reference
+-G
+  --traditional
+-F
+  --flag-truncation
+-M
+  --macro-name
+-O
+  --format
+-R
+  --right-side-refs
+-S
+  --sentence-regexp
+-T
+  --format
+-W
+  --word-regexp
+-b
+  --break-file
+-f
+  --ignore-case
+-g
+  --gap-size
+-i
+  --ignore-file
+-o
+  --only-file
+-r
+  --references
+-t
+  --typeset-mode
+-w
+  --width
+--help
+env: unrecognized option '--thisoptiondoesnotexist'
+env: invalid option -- '/'
+-i
+  --ignore-environment
+-0
+  --null
+-u
+  --unset
+-C
+  --chdir
+-S
+  --split-string
+-v
+  --debug
+--help
+readlink: unrecognized option '--thisoptiondoesnotexist'
+readlink: invalid option -- '/'
+-f
+  --canonicalize
+-e
+  --canonicalize-existing
+-m
+  --canonicalize-missing
+-n
+  --no-newline
+-q
+  --quiet
+-s
+  --silent
+-v
+  --verbose
+-z
+  --zero
+--help
+realpath: unrecognized option '--thisoptiondoesnotexist'
+realpath: invalid option -- '/'
+-e
+  --canonicalize-existing
+-m
+  --canonicalize-missing
+-L
+  --logical
+-P
+  --physical
+-q
+  --quiet
+--relative-to
+--relative-base
+-s
+  --strip
+  --no-symlinks
+-z
+  --zero
+--help
+rm: unrecognized option '--thisoptiondoesnotexist'
+rm: invalid option -- '/'
+-f
+  --force
+-i
+-I
+--interactive
+--one-file-system
+--no-preserve-root
+--preserve-root
+-r
+  -R
+  --recursive
+-d
+  --dir
+-v
+  --verbose
+--help
+rmdir: unrecognized option '--thisoptiondoesnotexist'
+rmdir: invalid option -- '/'
+--ignore-fail-on-non-empty
+-p
+  --parents
+-v
+  --verbose
+--help
+runcon: unrecognized option '--thisoptiondoesnotexist'
+runcon: invalid option -- '/'
+-c
+  --compute
+-t
+  --type
+-u
+  --user
+-r
+  --role
+-l
+  --range
+--help
+seq: unrecognized option '--thisoptiondoesnotexist'
+seq: invalid option -- '/'
+-f
+  --format
+-s
+  --separator
+-w
+  --equal-width
+--help
+sha1sum: unrecognized option '--thisoptiondoesnotexist'
+sha1sum: invalid option -- '/'
+-b
+  --binary
+-c
+  --check
+--tag
+-t
+  --text
+-z
+  --zero
+--ignore-missing
+--quiet
+--status
+--strict
+-w
+  --warn
+--help
+sha224sum: unrecognized option '--thisoptiondoesnotexist'
+sha224sum: invalid option -- '/'
+-b
+  --binary
+-c
+  --check
+--tag
+-t
+  --text
+-z
+  --zero
+--ignore-missing
+--quiet
+--status
+--strict
+-w
+  --warn
+--help
+sha256sum: unrecognized option '--thisoptiondoesnotexist'
+sha256sum: invalid option -- '/'
+-b
+  --binary
+-c
+  --check
+--tag
+-t
+  --text
+-z
+  --zero
+--ignore-missing
+--quiet
+--status
+--strict
+-w
+  --warn
+--help
+sha384sum: unrecognized option '--thisoptiondoesnotexist'
+sha384sum: invalid option -- '/'
+-b
+  --binary
+-c
+  --check
+--tag
+-t
+  --text
+-z
+  --zero
+--ignore-missing
+--quiet
+--status
+--strict
+-w
+  --warn
+--help
+sha512sum: unrecognized option '--thisoptiondoesnotexist'
+sha512sum: invalid option -- '/'
+-b
+  --binary
+-c
+  --check
+--tag
+-t
+  --text
+-z
+  --zero
+--ignore-missing
+--quiet
+--status
+--strict
+-w
+  --warn
+--help
+shred: unrecognized option '--thisoptiondoesnotexist'
+shred: invalid option -- '/'
+-f
+  --force
+-n
+  --iterations
+--random-source
+-s
+  --size
+-u
+--remove
+-v
+  --verbose
+-x
+  --exact
+-z
+  --zero
+--help
+shuf: unrecognized option '--thisoptiondoesnotexist'
+shuf: invalid option -- '/'
+-e
+  --echo
+-i
+  --input-range
+-n
+  --head-count
+-o
+  --output
+--random-source
+-r
+  --repeat
+-z
+  --zero-terminated
+--help
+sleep: unrecognized option '--thisoptiondoesnotexist'
+sleep: invalid option -- '/'
+--help
+sort: unrecognized option '--thisoptiondoesnotexist'
+sort: invalid option -- '/'
+-b
+  --ignore-leading-blanks
+-d
+  --dictionary-order
+-f
+  --ignore-case
+-g
+  --general-numeric-sort
+-i
+  --ignore-nonprinting
+-M
+  --month-sort
+-h
+  --human-numeric-sort
+-n
+  --numeric-sort
+-R
+  --random-sort
+--random-source
+-r
+  --reverse
+--sort
+split: unrecognized option '--thisoptiondoesnotexist'
+split: invalid option -- '/'
+-a
+  --suffix-length
+--additional-suffix
+-b
+  --bytes
+-C
+  --line-bytes
+-d
+--numeric-suffixes
+-x
+--hex-suffixes
+-e
+  --elide-empty-files
+--filter
+-l
+  --lines
+-n
+  --number
+-t
+  --separator
+-u
+  --unbuffered
+--verbose
+--help
+stat: unrecognized option '--thisoptiondoesnotexist'
+stat: invalid option -- '/'
+-L
+  --dereference
+-f
+  --file-system
+-c
+--printf
+-t
+  --terse
+--help
+stdbuf: unrecognized option '--thisoptiondoesnotexist'
+stdbuf: invalid option -- '/'
+-i
+  --input
+-o
+  --output
+-e
+  --error
+--help
+sum: unrecognized option '--thisoptiondoesnotexist'
+sum: invalid option -- '/'
+-r
+-s
+  --sysv
+--help
+sync: unrecognized option '--thisoptiondoesnotexist'
+sync: invalid option -- '/'
+-d
+  --data
+-f
+  --file-system
+--help
+tac: unrecognized option '--thisoptiondoesnotexist'
+tac: invalid option -- '/'
+-b
+  --before
+-r
+  --regex
+-s
+  --separator
+--help
+tail: unrecognized option '--thisoptiondoesnotexist'
+tail: invalid option -- '/'
+-c
+  --bytes
+-f
+  --follow
+-F
+-n
+  --lines
+--max-unchanged-stats
+--pid
+-q
+  --quiet
+  --silent
+--retry
+-s
+  --sleep-interval
+-v
+  --verbose
+-z
+  --zero-terminated
+--help
+tee: unrecognized option '--thisoptiondoesnotexist'
+tee: invalid option -- '/'
+-a
+  --append
+-i
+  --ignore-interrupts
+-p
+--output-error
+--help
+env: unrecognized option '--thisoptiondoesnotexist'
+env: invalid option -- '/'
+-i
+  --ignore-environment
+-0
+  --null
+-u
+  --unset
+-C
+  --chdir
+-S
+  --split-string
+-v
+  --debug
+--help
+timeout: unrecognized option '--thisoptiondoesnotexist'
+timeout: invalid option -- '/'
+--preserve-status
+--foreground
+-k
+  --kill-after
+-s
+  --signal
+-v
+  --verbose
+--help
+touch: unrecognized option '--thisoptiondoesnotexist'
+touch: invalid option -- '/'
+-a
+-c
+  --no-create
+-d
+  --date
+-f
+-h
+  --no-dereference
+-m
+-r
+  --reference
+-t STAMP
+--time
+--help
+tr: unrecognized option '--thisoptiondoesnotexist'
+tr: invalid option -- '/'
+-c
+  -C
+  --complement
+-d
+  --delete
+-s
+  --squeeze-repeats
+-t
+  --truncate-set1
+--help
+env: unrecognized option '--thisoptiondoesnotexist'
+env: invalid option -- '/'
+-i
+  --ignore-environment
+-0
+  --null
+-u
+  --unset
+-C
+  --chdir
+-S
+  --split-string
+-v
+  --debug
+--help
+truncate: unrecognized option '--thisoptiondoesnotexist'
+truncate: invalid option -- '/'
+-c
+  --no-create
+-o
+  --io-blocks
+-r
+  --reference
+-s
+  --size
+--help
+tsort: unrecognized option '--thisoptiondoesnotexist'
+tsort: invalid option -- '/'
+--help
+tty: unrecognized option '--thisoptiondoesnotexist'
+tty: invalid option -- '/'
+-s
+  --silent
+  --quiet
+--help
+uname: unrecognized option '--thisoptiondoesnotexist'
+uname: invalid option -- '/'
+-a
+  --all
+-s
+  --kernel-name
+-n
+  --nodename
+-r
+  --kernel-release
+-v
+  --kernel-version
+-m
+  --machine
+-p
+  --processor
+-i
+  --hardware-platform
+-o
+  --operating-system
+--help
+unexpand: unrecognized option '--thisoptiondoesnotexist'
+unexpand: invalid option -- '/'
+-a
+  --all
+--first-only
+-t
+  --tabs
+-t
+  --tabs
+--help
+uniq: unrecognized option '--thisoptiondoesnotexist'
+uniq: invalid option -- '/'
+-c
+  --count
+-d
+  --repeated
+-D
+--all-repeated
+-f
+  --skip-fields
+--group
+-i
+  --ignore-case
+-s
+  --skip-chars
+-u
+  --unique
+-z
+  --zero-terminated
+-w
+  --check-chars
+--help
+unlink: unrecognized option '--thisoptiondoesnotexist'
+unlink: invalid option -- '/'
+--help
+uptime: unrecognized option '--thisoptiondoesnotexist'
+uptime: invalid option -- '/'
+--help
+users: unrecognized option '--thisoptiondoesnotexist'
+users: invalid option -- '/'
+--help
+vdir: unrecognized option '--thisoptiondoesnotexist'
+vdir: invalid option -- '/'
+-a
+  --all
+-A
+  --almost-all
+--author
+-b
+  --escape
+--block-size
+-B
+  --ignore-backups
+-c
+-C
+--color
+-d
+  --directory
+-D
+  --dired
+-f
+-F
+  --classify
+--file-type
+--format
+--full-time
+-g
+--group-directories-first
+-G
+  --no-group
+-h
+  --human-readable
+--si
+-H
+  --dereference-command-line
+--dereference-command-line-symlink-to-dir
+--hide
+--hyperlink
+--indicator-style
+-i
+  --inode
+-I
+  --ignore
+-k
+  --kibibytes
+-l
+-L
+  --dereference
+-m
+-n
+  --numeric-uid-gid
+-N
+  --literal
+-o
+-p
+  --indicator-style
+-q
+  --hide-control-chars
+--show-control-chars
+-Q
+  --quote-name
+--quoting-style
+-r
+  --reverse
+-R
+  --recursive
+-s
+  --size
+-S
+--sort
+--time
+--time-style
+-t
+-T
+  --tabsize
+-u
+-U
+-v
+-w
+  --width
+-x
+-X
+-Z
+  --context
+-1
+--help
+wc: unrecognized option '--thisoptiondoesnotexist'
+wc: invalid option -- '/'
+-c
+  --bytes
+-m
+  --chars
+-l
+  --lines
+--files0-from
+-L
+  --max-line-length
+-w
+  --words
+--help
+who: unrecognized option '--thisoptiondoesnotexist'
+who: invalid option -- '/'
+-a
+  --all
+-b
+  --boot
+-d
+  --dead
+-H
+  --heading
+--ips
+-l
+  --login
+--lookup
+-m
+-p
+  --process
+-q
+  --count
+-r
+  --runlevel
+-s
+  --short
+-t
+  --time
+-T
+  -w
+  --mesg
+-u
+  --users
+--message
+--writable
+--help
+whoami: unrecognized option '--thisoptiondoesnotexist'
+whoami: invalid option -- '/'
+--help
+yes: unrecognized option '--thisoptiondoesnotexist'
+yes: invalid option -- '/'
+--help
+PASS tests/misc/usage_vs_getopt.sh (exit status: 0)

@@ -1,0 +1,7 @@
+tr: misaligned [:upper:] and/or [:lower:] construct
+tr: misaligned [:upper:] and/or [:lower:] construct
+tr: misaligned [:upper:] and/or [:lower:] construct
+tr: misaligned [:upper:] and/or [:lower:] construct
+tr: misaligned [:upper:] and/or [:lower:] construct
+./tests/misc/tr-case-class.sh: line 65: warning: setlocale: LC_ALL: cannot change locale (en_US.ISO-8859-1): No such file or directory
+PASS tests/misc/tr-case-class.sh (exit status: 0)

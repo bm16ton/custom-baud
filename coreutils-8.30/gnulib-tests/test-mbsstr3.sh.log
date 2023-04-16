@@ -1,0 +1,2 @@
+Skipping test: no chinese GB18030 locale is installed
+SKIP test-mbsstr3.sh (exit status: 77)

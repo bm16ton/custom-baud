@@ -1,0 +1,1 @@
+PASS tests/rm/isatty.sh (exit status: 0)

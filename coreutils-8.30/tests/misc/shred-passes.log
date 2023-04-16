@@ -1,0 +1,4 @@
+1+0 records in
+1+0 records out
+102400 bytes (102 kB, 100 KiB) copied, 0.000678135 s, 151 MB/s
+PASS tests/misc/shred-passes.sh (exit status: 0)

@@ -1,0 +1,1 @@
+PASS tests/rmdir/fail-perm.sh (exit status: 0)

@@ -1,0 +1,36 @@
+Filesystem     1K-blocks      Used Available Use% Mounted on
+udev             3392876         0   3392876   0% /dev
+tmpfs             695700      1928    693772   1% /run
+/dev/sda6       53768512  48486448   2518288  96% /
+tmpfs            3478496         0   3478496   0% /dev/shm
+tmpfs               5120         4      5116   1% /run/lock
+tmpfs            3478496         0   3478496   0% /sys/fs/cgroup
+/dev/sda4       56402444  41860236  11644700  79% /Part
+/dev/sda1         262144     89432    172712  35% /boot/efi
+tmpfs             695696        32    695664   1% /run/user/1000
+/dev/sdh1      960310988 240647260 670809304  27% /media/maddocks/0e5c8f59-b86e-4423-a28c-b3830408c50a5
+Filesystem     512-blocks      Used  Available Capacity Mounted on
+udev              6785752         0    6785752       0% /dev
+tmpfs             1391400      3856    1387544       1% /run
+/dev/sda6       107537024  96972896    5036576      96% /
+tmpfs             6956992         0    6956992       0% /dev/shm
+tmpfs               10240         8      10232       1% /run/lock
+tmpfs             6956992         0    6956992       0% /sys/fs/cgroup
+/dev/sda4       112804888  83720488   23289384      79% /Part
+/dev/sda1          524288    178864     345424      35% /boot/efi
+tmpfs             1391392        64    1391328       1% /run/user/1000
+/dev/sdh1      1920621976 481294520 1341618608      27% /media/maddocks/0e5c8f59-b86e-4423-a28c-b3830408c50a5
+total          2164980944 662170696 1393778832      33% -
+Filesystem       Inodes   IUsed    IFree IUse% Mounted on
+udev             848219     843   847376    1% /dev
+tmpfs            869624    1676   867948    1% /run
+/dev/sda6       3440640 1276731  2163909   38% /
+tmpfs            869624       1   869623    1% /dev/shm
+tmpfs            869624       7   869617    1% /run/lock
+tmpfs            869624      17   869607    1% /sys/fs/cgroup
+/dev/sda4       3604480  918843  2685637   26% /Part
+/dev/sda1             0       0        0     - /boot/efi
+tmpfs            869624      61   869563    1% /run/user/1000
+/dev/sdh1      61054976 5144106 55910870    9% /media/maddocks/0e5c8f59-b86e-4423-a28c-b3830408c50a5
+total          73296435 7342285 65954150   11% -
+PASS tests/df/total-verify.sh (exit status: 0)

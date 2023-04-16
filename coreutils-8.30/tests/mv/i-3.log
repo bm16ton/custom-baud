@@ -1,0 +1,5 @@
+i-3.sh: skipped test: requires controlling input terminal
+This test must have a controlling input "terminal", so it may not be
+run via "batch", "at", or "ssh".  On some systems, it may not even be
+run in the background.
+SKIP tests/mv/i-3.sh (exit status: 77)

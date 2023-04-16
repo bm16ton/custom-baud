@@ -1,0 +1,1 @@
+PASS tests/tail-2/inotify-dir-recreate.sh (exit status: 0)

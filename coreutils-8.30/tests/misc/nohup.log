@@ -1,0 +1,3 @@
+stdout
+stderr
+PASS tests/misc/nohup.sh (exit status: 0)

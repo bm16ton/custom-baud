@@ -1,0 +1,1 @@
+PASS tests/ls/stat-free-symlinks.sh (exit status: 0)

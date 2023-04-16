@@ -1,0 +1,2 @@
+seq: write error: Broken pipe
+PASS tests/misc/seq-epipe.sh (exit status: 0)

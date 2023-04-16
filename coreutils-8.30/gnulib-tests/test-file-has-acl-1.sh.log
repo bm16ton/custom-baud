@@ -1,0 +1,65 @@
++ test 1 = 0
++ func_tmpdir
++ : /var/tmp
++ tmp=/var/tmp/glzdS1UJ
++ test -n /var/tmp/glzdS1UJ
++ test -d /var/tmp/glzdS1UJ
+++ pwd
++ builddir=/Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests
++ cd /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests
++ cd /var/tmp/glzdS1UJ
++ rm -f 'tmpfile[0-9]' tmp.err
++ echo 'Simple contents'
++ chmod 600 tmpfile0
++ acl_flavor=none
++ acl_flavor=linux
++ case $acl_flavor in
++ func_test_has_acl tmpfile0 no
++ func_test_file_has_acl tmpfile0 no
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile0
++ res=no
++ test no = no
++ mkdir tmpdir0
++ func_test_has_acl tmpdir0 no
++ func_test_file_has_acl tmpdir0 no
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpdir0
++ res=no
++ test no = no
++ test linux '!=' none
++ test -f /usr/xpg4/bin/id
++ ID=id
+++ id -u
++ myuid=1000
+++ id -g
++ mygid=1000
++ auid=1
++ test 1 = 1000
++ agid=1
++ test 1 = 1000
++ case $acl_flavor in
++ setfacl -m user:1:1 tmpfile0
++ func_test_has_acl tmpfile0 yes
++ func_test_file_has_acl tmpfile0 yes
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile0
++ res=yes
++ test yes = yes
++ case $acl_flavor in
++ setfacl -x user:1 tmpfile0
++ case $acl_flavor in
++ func_test_has_acl tmpfile0 yes
++ func_test_file_has_acl tmpfile0 yes
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile0
++ res=yes
++ test yes = yes
++ case $acl_flavor in
++ setfacl -x mask: tmpfile0
++ func_test_has_acl tmpfile0 no
++ func_test_file_has_acl tmpfile0 no
+++ /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gnulib-tests/test-file-has-acl tmpfile0
++ res=no
++ test no = no
++ rm -f tmpfile0 tmp.err
++ rm -rf tmpdir0
++ rm -rf /var/tmp/glzdS1UJ
++ exit 0
+PASS test-file-has-acl-1.sh (exit status: 0)

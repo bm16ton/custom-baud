@@ -1,0 +1,1244 @@
+================================================
+   GNU coreutils 8.30: ./tests/test-suite.log
+================================================
+
+# TOTAL: 608
+# PASS:  498
+# SKIP:  110
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+
+.. contents:: :depth: 2
+
+SKIP: tests/tail-2/inotify-race
+===============================
+
+diff -u /dev/null gdb.out
+--- /dev/null	1970-01-01
++++ gdb.out	1970-01-01
++2485	src/tail.c: No such file or directory.
+inotify-race.sh: skipped test: can't set breakpoints in tail
+SKIP tests/tail-2/inotify-race.sh (exit status: 77)
+
+SKIP: tests/tail-2/inotify-race2
+================================
+
+diff -u /dev/null gdb.out
+--- /dev/null	1970-01-01
++++ gdb.out	1970-01-01
++2485	src/tail.c: No such file or directory.
+inotify-race2.sh: skipped test: can't set breakpoints in tail
+SKIP tests/tail-2/inotify-race2.sh (exit status: 77)
+
+SKIP: tests/rm/ext3-perf
+========================
+
+ext3-perf.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/rm/ext3-perf.sh (exit status: 77)
+
+SKIP: tests/cp/link-heap
+========================
+
+link-heap.sh: skipped test: expensive: disabled by default
+This test is relatively expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-expensive
+
+SKIP tests/cp/link-heap.sh (exit status: 77)
+
+SKIP: tests/cp/no-ctx
+=====================
+
+no-ctx.sh: skipped test: this system lacks SELinux support
+SKIP tests/cp/no-ctx.sh (exit status: 77)
+
+SKIP: tests/misc/tty-eof
+========================
+
+tty-eof.pl: this script requires Perl's Expect package >=1.11
+SKIP tests/misc/tty-eof.pl (exit status: 77)
+
+SKIP: tests/rm/hash
+===================
+
+hash.sh: skipped test: expensive: disabled by default
+This test is relatively expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-expensive
+
+SKIP tests/rm/hash.sh (exit status: 77)
+
+SKIP: tests/rm/r-root
+=====================
+
+diff -u /dev/null err
+--- /dev/null	1970-01-01
++++ err	1970-01-01
++No source file named /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/src/remove.c.
+No source file named /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/src/remove.c.
+r-root.sh: skipped test: internal test failure: maybe LD_PRELOAD or gdb doesn't work?
+SKIP tests/rm/r-root.sh (exit status: 77)
+
+SKIP: tests/rm/many-dir-entries-vs-OOM
+======================================
+
+many-dir-entries-vs-OOM.sh: skipped test: expensive: disabled by default
+This test is relatively expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-expensive
+
+SKIP tests/rm/many-dir-entries-vs-OOM.sh (exit status: 77)
+
+SKIP: tests/misc/coreutils
+==========================
+
+coreutils: not built
+coreutils.sh: skipped test: required program(s) not built
+SKIP tests/misc/coreutils.sh (exit status: 77)
+
+SKIP: tests/misc/expr-multibyte
+===============================
+
+expr-multibyte.pl: this test requires FR-UTF8 locale
+SKIP tests/misc/expr-multibyte.pl (exit status: 77)
+
+SKIP: tests/misc/shuf-reservoir
+===============================
+
+shuf-reservoir.sh: skipped test: expensive: disabled by default
+This test is relatively expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-expensive
+
+SKIP tests/misc/shuf-reservoir.sh (exit status: 77)
+
+SKIP: tests/misc/sort-benchmark-random
+======================================
+
+sort-benchmark-random.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/misc/sort-benchmark-random.sh (exit status: 77)
+
+SKIP: tests/misc/sort-compress-hang
+===================================
+
+sort-compress-hang.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/misc/sort-compress-hang.sh (exit status: 77)
+
+SKIP: tests/misc/sort-compress-proc
+===================================
+
+sort-compress-proc.sh: skipped test: expensive: disabled by default
+This test is relatively expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-expensive
+
+SKIP tests/misc/sort-compress-proc.sh (exit status: 77)
+
+SKIP: tests/misc/sort-h-thousands-sep
+=====================================
+
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+sort-h-thousands-sep.sh: skipped test: The Swedish locale with blank thousands separator is unavailable.
+SKIP tests/misc/sort-h-thousands-sep.sh (exit status: 77)
+
+SKIP: tests/misc/sort-spinlock-abuse
+====================================
+
+sort-spinlock-abuse.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/misc/sort-spinlock-abuse.sh (exit status: 77)
+
+SKIP: tests/misc/sort-stale-thread-mem
+======================================
+
+sort-stale-thread-mem.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/misc/sort-stale-thread-mem.sh (exit status: 77)
+
+SKIP: tests/misc/stty
+=====================
+
+stty.sh: skipped test: requires controlling input terminal
+This test must have a controlling input "terminal", so it may not be
+run via "batch", "at", or "ssh".  On some systems, it may not even be
+run in the background.
+SKIP tests/misc/stty.sh (exit status: 77)
+
+SKIP: tests/misc/stty-invalid
+=============================
+
+stty-invalid.sh: skipped test: requires controlling input terminal
+This test must have a controlling input "terminal", so it may not be
+run via "batch", "at", or "ssh".  On some systems, it may not even be
+run in the background.
+SKIP tests/misc/stty-invalid.sh (exit status: 77)
+
+SKIP: tests/misc/stty-pairs
+===========================
+
+stty-pairs.sh: skipped test: expensive: disabled by default
+This test is relatively expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-expensive
+
+SKIP tests/misc/stty-pairs.sh (exit status: 77)
+
+SKIP: tests/misc/stty-row-col
+=============================
+
+stty-row-col.sh: skipped test: requires controlling input terminal
+This test must have a controlling input "terminal", so it may not be
+run via "batch", "at", or "ssh".  On some systems, it may not even be
+run in the background.
+SKIP tests/misc/stty-row-col.sh (exit status: 77)
+
+SKIP: tests/misc/tac-continue
+=============================
+
+tac-continue.sh: skipped test: FULL_PARTITION_TMPDIR not defined
+SKIP tests/misc/tac-continue.sh (exit status: 77)
+
+SKIP: tests/cp/perm
+===================
+
+perm.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/cp/perm.sh (exit status: 77)
+
+SKIP: tests/df/skip-rootfs
+==========================
+
+Filesystem     1K-blocks      Used Available Use% Mounted on
+udev             3392876         0   3392876   0% /dev
+tmpfs             695700      1928    693772   1% /run
+/dev/sda6       53768512  48486448   2518288  96% /
+tmpfs            3478496         0   3478496   0% /dev/shm
+tmpfs               5120         4      5116   1% /run/lock
+tmpfs            3478496         0   3478496   0% /sys/fs/cgroup
+/dev/sda4       56402444  41860092  11644844  79% /Part
+/dev/sda1         262144     89432    172712  35% /boot/efi
+tmpfs             695696        32    695664   1% /run/user/1000
+/dev/sdh1      960310988 240647260 670809304  27% /media/maddocks/0e5c8f59-b86e-4423-a28c-b3830408c50a5
+skip-rootfs.sh: skipped test: no rootfs in mtab
+SKIP tests/df/skip-rootfs.sh (exit status: 77)
+
+SKIP: tests/dd/direct
+=====================
+
+direct.sh: skipped test: 512 byte aligned O_DIRECT is not supported on this (file) system
+SKIP tests/dd/direct.sh (exit status: 77)
+
+SKIP: tests/du/2g
+=================
+
+2g.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/du/2g.sh (exit status: 77)
+
+SKIP: tests/du/bigtime
+======================
+
+bigtime.sh: skipped test: file system or localtime mishandles big timestamps: -rw-r--r-- 1 maddocks maddocks 0 May 10  2446 future
+SKIP tests/du/bigtime.sh (exit status: 77)
+
+SKIP: tests/du/fd-leak
+======================
+
+fd-leak.sh: skipped test: expensive: disabled by default
+This test is relatively expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-expensive
+
+SKIP tests/du/fd-leak.sh (exit status: 77)
+
+SKIP: tests/id/gnu-zero-uids
+============================
+
+gnu-zero-uids.sh: skipped test: not running on GNU/Hurd
+SKIP tests/id/gnu-zero-uids.sh (exit status: 77)
+
+SKIP: tests/id/no-context
+=========================
+
+no-context.sh: skipped test: this system lacks SELinux support
+SKIP tests/id/no-context.sh (exit status: 77)
+
+SKIP: tests/id/context
+======================
+
+context.sh: skipped test: this system lacks SELinux support
+SKIP tests/id/context.sh (exit status: 77)
+
+SKIP: tests/id/smack
+====================
+
+smack.sh: skipped test: this system lacks SMACK support
+SKIP tests/id/smack.sh (exit status: 77)
+
+SKIP: tests/install/install-C-selinux
+=====================================
+
+install-C-selinux.sh: skipped test: this system lacks SELinux support
+SKIP tests/install/install-C-selinux.sh (exit status: 77)
+
+SKIP: tests/install/install-Z-selinux
+=====================================
+
+install-Z-selinux.sh: skipped test: this system lacks SELinux support
+SKIP tests/install/install-Z-selinux.sh (exit status: 77)
+
+SKIP: tests/ls/root-rel-symlink-color
+=====================================
+
+root-rel-symlink-color.sh: skipped test: no relative symlink in /
+SKIP tests/ls/root-rel-symlink-color.sh (exit status: 77)
+
+SKIP: tests/mkdir/selinux
+=========================
+
+selinux.sh: skipped test: this system lacks SELinux support
+SKIP tests/mkdir/selinux.sh (exit status: 77)
+
+SKIP: tests/mkdir/restorecon
+============================
+
+restorecon.sh: skipped test: this system lacks SELinux support
+SKIP tests/mkdir/restorecon.sh (exit status: 77)
+
+SKIP: tests/mkdir/smack-no-root
+===============================
+
+smack-no-root.sh: skipped test: this system lacks SMACK support
+SKIP tests/mkdir/smack-no-root.sh (exit status: 77)
+
+SKIP: tests/mv/i-3
+==================
+
+i-3.sh: skipped test: requires controlling input terminal
+This test must have a controlling input "terminal", so it may not be
+run via "batch", "at", or "ssh".  On some systems, it may not even be
+run in the background.
+SKIP tests/mv/i-3.sh (exit status: 77)
+
+SKIP: tests/mv/leak-fd
+======================
+
+leak-fd.sh: skipped test: expensive: disabled by default
+This test is relatively expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-expensive
+
+SKIP tests/mv/leak-fd.sh (exit status: 77)
+
+SKIP: tests/tail-2/big-4gb
+==========================
+
+big-4gb.sh: skipped test: expensive: disabled by default
+This test is relatively expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-expensive
+
+SKIP tests/tail-2/big-4gb.sh (exit status: 77)
+
+SKIP: tests/chown/basic
+=======================
+
+basic.sh: skipped test: must be run as root
+SKIP tests/chown/basic.sh (exit status: 77)
+
+SKIP: tests/cp/cp-a-selinux
+===========================
+
+cp-a-selinux.sh: skipped test: must be run as root
+SKIP tests/cp/cp-a-selinux.sh (exit status: 77)
+
+SKIP: tests/cp/preserve-gid
+===========================
+
+preserve-gid.sh: skipped test: must be run as root
+SKIP tests/cp/preserve-gid.sh (exit status: 77)
+
+SKIP: tests/cp/special-bits
+===========================
+
+special-bits.sh: skipped test: must be run as root
+SKIP tests/cp/special-bits.sh (exit status: 77)
+
+SKIP: tests/cp/cp-mv-enotsup-xattr
+==================================
+
+cp-mv-enotsup-xattr.sh: skipped test: must be run as root
+SKIP tests/cp/cp-mv-enotsup-xattr.sh (exit status: 77)
+
+SKIP: tests/cp/capability
+=========================
+
+capability.sh: skipped test: must be run as root
+SKIP tests/cp/capability.sh (exit status: 77)
+
+SKIP: tests/cp/cross-dev-symlink
+================================
+
+cross-dev-symlink.sh: skipped test: must be run as root
+SKIP tests/cp/cross-dev-symlink.sh (exit status: 77)
+
+SKIP: tests/dd/skip-seek-past-dev
+=================================
+
+skip-seek-past-dev.sh: skipped test: must be run as root
+SKIP tests/dd/skip-seek-past-dev.sh (exit status: 77)
+
+SKIP: tests/df/problematic-chars
+================================
+
+problematic-chars.sh: skipped test: must be run as root
+SKIP tests/df/problematic-chars.sh (exit status: 77)
+
+SKIP: tests/df/over-mount-device
+================================
+
+over-mount-device.sh: skipped test: must be run as root
+SKIP tests/df/over-mount-device.sh (exit status: 77)
+
+SKIP: tests/du/bind-mount-dir-cycle
+===================================
+
+bind-mount-dir-cycle.sh: skipped test: must be run as root
+SKIP tests/du/bind-mount-dir-cycle.sh (exit status: 77)
+
+SKIP: tests/du/bind-mount-dir-cycle-v2
+======================================
+
+bind-mount-dir-cycle-v2.sh: skipped test: must be run as root
+SKIP tests/du/bind-mount-dir-cycle-v2.sh (exit status: 77)
+
+SKIP: tests/id/setgid
+=====================
+
+setgid.sh: skipped test: must be run as root
+SKIP tests/id/setgid.sh (exit status: 77)
+
+SKIP: tests/install/install-C-root
+==================================
+
+install-C-root.sh: skipped test: must be run as root
+SKIP tests/install/install-C-root.sh (exit status: 77)
+
+SKIP: tests/ls/capability
+=========================
+
+capability.sh: skipped test: must be run as root
+SKIP tests/ls/capability.sh (exit status: 77)
+
+SKIP: tests/ls/nameless-uid
+===========================
+
+nameless-uid.sh: skipped test: must be run as root
+SKIP tests/ls/nameless-uid.sh (exit status: 77)
+
+SKIP: tests/misc/chcon
+======================
+
+chcon.sh: skipped test: must be run as root
+SKIP tests/misc/chcon.sh (exit status: 77)
+
+SKIP: tests/misc/chroot-credentials
+===================================
+
+chroot-credentials.sh: skipped test: must be run as root
+SKIP tests/misc/chroot-credentials.sh (exit status: 77)
+
+SKIP: tests/misc/selinux
+========================
+
+selinux.sh: skipped test: must be run as root
+SKIP tests/misc/selinux.sh (exit status: 77)
+
+SKIP: tests/misc/truncate-owned-by-other
+========================================
+
+truncate-owned-by-other.sh: skipped test: must be run as root
+SKIP tests/misc/truncate-owned-by-other.sh (exit status: 77)
+
+SKIP: tests/mkdir/writable-under-readonly
+=========================================
+
+writable-under-readonly.sh: skipped test: must be run as root
+SKIP tests/mkdir/writable-under-readonly.sh (exit status: 77)
+
+SKIP: tests/mkdir/smack-root
+============================
+
+smack-root.sh: skipped test: this system lacks SMACK support
+SKIP tests/mkdir/smack-root.sh (exit status: 77)
+
+SKIP: tests/mv/hardlink-case
+============================
+
+hardlink-case.sh: skipped test: must be run as root
+SKIP tests/mv/hardlink-case.sh (exit status: 77)
+
+SKIP: tests/mv/sticky-to-xpart
+==============================
+
+sticky-to-xpart.sh: skipped test: must be run as root
+SKIP tests/mv/sticky-to-xpart.sh (exit status: 77)
+
+SKIP: tests/rm/fail-2eperm
+==========================
+
+fail-2eperm.sh: skipped test: must be run as root
+SKIP tests/rm/fail-2eperm.sh (exit status: 77)
+
+SKIP: tests/rm/no-give-up
+=========================
+
+no-give-up.sh: skipped test: must be run as root
+SKIP tests/rm/no-give-up.sh (exit status: 77)
+
+SKIP: tests/rm/one-file-system
+==============================
+
+one-file-system.sh: skipped test: must be run as root
+SKIP tests/rm/one-file-system.sh (exit status: 77)
+
+SKIP: tests/rm/read-only
+========================
+
+read-only.sh: skipped test: must be run as root
+SKIP tests/rm/read-only.sh (exit status: 77)
+
+SKIP: tests/tail-2/append-only
+==============================
+
+append-only.sh: skipped test: must be run as root
+SKIP tests/tail-2/append-only.sh (exit status: 77)
+
+SKIP: tests/tail-2/end-of-device
+================================
+
+end-of-device.sh: skipped test: must be run as root
+SKIP tests/tail-2/end-of-device.sh (exit status: 77)
+
+SKIP: tests/touch/now-owned-by-other
+====================================
+
+now-owned-by-other.sh: skipped test: must be run as root
+SKIP tests/touch/now-owned-by-other.sh (exit status: 77)
+
+SKIP: tests/factor/t00
+======================
+
+t00.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t00.sh (exit status: 77)
+
+SKIP: tests/factor/t01
+======================
+
+t01.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t01.sh (exit status: 77)
+
+SKIP: tests/factor/t02
+======================
+
+t02.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t02.sh (exit status: 77)
+
+SKIP: tests/factor/t03
+======================
+
+t03.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t03.sh (exit status: 77)
+
+SKIP: tests/factor/t04
+======================
+
+t04.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t04.sh (exit status: 77)
+
+SKIP: tests/factor/t05
+======================
+
+t05.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t05.sh (exit status: 77)
+
+SKIP: tests/factor/t06
+======================
+
+t06.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t06.sh (exit status: 77)
+
+SKIP: tests/factor/t07
+======================
+
+t07.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t07.sh (exit status: 77)
+
+SKIP: tests/factor/t08
+======================
+
+t08.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t08.sh (exit status: 77)
+
+SKIP: tests/factor/t09
+======================
+
+t09.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t09.sh (exit status: 77)
+
+SKIP: tests/factor/t10
+======================
+
+t10.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t10.sh (exit status: 77)
+
+SKIP: tests/factor/t11
+======================
+
+t11.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t11.sh (exit status: 77)
+
+SKIP: tests/factor/t12
+======================
+
+t12.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t12.sh (exit status: 77)
+
+SKIP: tests/factor/t13
+======================
+
+t13.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t13.sh (exit status: 77)
+
+SKIP: tests/factor/t14
+======================
+
+t14.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t14.sh (exit status: 77)
+
+SKIP: tests/factor/t15
+======================
+
+t15.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t15.sh (exit status: 77)
+
+SKIP: tests/factor/t16
+======================
+
+t16.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t16.sh (exit status: 77)
+
+SKIP: tests/factor/t17
+======================
+
+t17.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t17.sh (exit status: 77)
+
+SKIP: tests/factor/t18
+======================
+
+t18.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t18.sh (exit status: 77)
+
+SKIP: tests/factor/t19
+======================
+
+t19.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t19.sh (exit status: 77)
+
+SKIP: tests/factor/t20
+======================
+
+t20.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t20.sh (exit status: 77)
+
+SKIP: tests/factor/t21
+======================
+
+t21.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t21.sh (exit status: 77)
+
+SKIP: tests/factor/t22
+======================
+
+t22.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t22.sh (exit status: 77)
+
+SKIP: tests/factor/t23
+======================
+
+t23.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t23.sh (exit status: 77)
+
+SKIP: tests/factor/t24
+======================
+
+t24.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t24.sh (exit status: 77)
+
+SKIP: tests/factor/t25
+======================
+
+t25.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t25.sh (exit status: 77)
+
+SKIP: tests/factor/t26
+======================
+
+t26.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t26.sh (exit status: 77)
+
+SKIP: tests/factor/t27
+======================
+
+t27.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t27.sh (exit status: 77)
+
+SKIP: tests/factor/t28
+======================
+
+t28.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t28.sh (exit status: 77)
+
+SKIP: tests/factor/t29
+======================
+
+t29.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t29.sh (exit status: 77)
+
+SKIP: tests/factor/t30
+======================
+
+t30.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t30.sh (exit status: 77)
+
+SKIP: tests/factor/t31
+======================
+
+t31.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t31.sh (exit status: 77)
+
+SKIP: tests/factor/t32
+======================
+
+t32.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t32.sh (exit status: 77)
+
+SKIP: tests/factor/t33
+======================
+
+t33.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t33.sh (exit status: 77)
+
+SKIP: tests/factor/t34
+======================
+
+t34.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t34.sh (exit status: 77)
+
+SKIP: tests/factor/t35
+======================
+
+t35.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t35.sh (exit status: 77)
+
+SKIP: tests/factor/t36
+======================
+
+t36.sh: skipped test: very expensive: disabled by default
+This test is very expensive, so it is disabled by default.
+To run it anyway, rerun make check with the RUN_VERY_EXPENSIVE_TESTS
+environment variable set to yes.  E.g.,
+
+  env RUN_VERY_EXPENSIVE_TESTS=yes make check
+
+or use the shortcut target of the toplevel Makefile,
+
+  make check-very-expensive
+
+SKIP tests/factor/t36.sh (exit status: 77)
+

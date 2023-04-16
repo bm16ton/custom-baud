@@ -1,0 +1,1 @@
+PASS tests/chmod/inaccessible.sh (exit status: 0)

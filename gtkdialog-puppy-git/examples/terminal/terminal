@@ -1,0 +1,116 @@
+#!/bin/sh
+
+[ -z $GTKDIALOG ] && GTKDIALOG=gtkdialog
+
+TEMPDIR=/tmp/gtkdialog/examples/"`basename $0`"
+mkdir -p "$TEMPDIR"
+
+# You may notice that the last line of this demo contains "qecho":
+# the "q" is actually quitting "top". I could've just put "q" on
+# a separate line but then it sends an unnecessary newline.
+echo "clear
+echo pid=\$$
+whoami
+hostname
+pwd
+ls --color=auto ~/
+date
+cal
+arch
+uname -a
+/bin/sh --version
+top
+qecho restarting..." > "$TEMPDIR"/demo
+echo 0 > "$TEMPDIR"/demoindex
+echo 13 > "$TEMPDIR"/democount
+sed -n 1p "$TEMPDIR"/demo > "$TEMPDIR"/feed
+
+cat > "$TEMPDIR/rc2" << \EOF
+_info() { printf "\033[48;2;%d;%d;%dm     \033[0m %s\n" "$@"; }
+_init() {
+	PS1="demo# "
+	echo
+	_info   0 255 255 "cursor background color #0ff (aqua)"
+	_info 128 128   0 "text select background color #222 (olive)"
+	_info 255   0   0 "text select foreground color #f00 (red) GTK3 only"
+	_info  68  68 221 "text background color #44d (blue)"
+	_info 221 221 221 "text foreground color #ddd (gray)"
+	echo
+}
+clear
+_init
+EOF
+
+MAIN_DIALOG='
+<window title="Terminal Widget" resizable="true">
+	<vbox>
+		<timer interval="2" visible="false">
+			<action>"read < '"$TEMPDIR"'/demoindex; index=$REPLY
+				read < '"$TEMPDIR"'/democount; count=$REPLY
+				index=$((index + 1))
+				if [ $index -ge $count ]; then
+					index=0
+				fi
+				line=$((index + 1))
+				sed -n ${line}p '"$TEMPDIR"'/demo > '"$TEMPDIR"'/feed
+				echo $index > '"$TEMPDIR"'/demoindex
+			"</action>
+			<action>refresh:vte2</action>
+		</timer>
+		<notebook tab-labels="All Defaults|Colourful|Input File Feed Demo">
+			<terminal has-focus="true">
+				<variable>vte0</variable>
+				<action>echo "vte0=$vte0 - Default child-exited signal"</action>
+				<action signal="child-exited">echo "vte0=$vte0 - Resetting and re-executing command"</action>
+				<action signal="child-exited">clear:vte0</action>
+				<action signal="child-exited">echo "vte0=$vte0 - New PID"</action>
+				<action signal="show">echo "vte0=$vte0 - show signal"</action>
+			</terminal>
+			<terminal argv0="'${SHELL:-/bin/sh}'"
+				envv0="WELCOME=Welcome to the terminal (VteTerminal) widget :)"
+				pointer-autohide="true"
+				current-directory-uri="'$HOME'"
+
+				cursor-background-color="aqua"
+				highlight-background-color="#808000"
+				highlight-foreground-color="red"
+				text-background-color="#44d"
+				text-foreground-color="#ddd"
+
+				hscrollbar-policy="2"
+				vscrollbar-policy="2">
+				<variable>vte1</variable>
+
+<input file>'"$TEMPDIR/rc2"'</input>
+<input>echo "echo \"\$WELCOME\""</input>
+
+				<action>echo "vte1=$vte1 - Default child-exited signal"</action>
+				<action signal="child-exited">echo "vte1=$vte1 - Resetting and re-executing command"</action>
+				<action signal="child-exited">clear:vte1</action>
+				<action signal="child-exited">echo "vte1=$vte1 - New PID"</action>
+				<action signal="child-exited">refresh:vte1</action>
+				<action signal="show">echo "vte1=$vte1 - show signal"</action>
+			</terminal>
+			<terminal argv0="'${SHELL:-/bin/sh}'" sensitive="false"
+				cursor-shape="2"
+				background-transparent="true"
+				background-saturation="0.2"
+				text-foreground-color="#fff">
+				<variable>vte2</variable>
+				<input file>'"$TEMPDIR"'/feed</input>
+				<action signal="show">echo "vte2=$vte2 - show signal"</action>
+			</terminal>
+		</notebook>
+		<hbox homogeneous="true" space-expand="false" space-fill="false">
+			<button use-stock="true" label="gtk-quit">
+			</button>
+		</hbox>
+	</vbox>
+</window>
+'
+export MAIN_DIALOG
+
+case $1 in
+	-d | --dump) echo "$MAIN_DIALOG" ;;
+	*) $GTKDIALOG --space-expand=true --space-fill=true --program=MAIN_DIALOG ;;
+esac

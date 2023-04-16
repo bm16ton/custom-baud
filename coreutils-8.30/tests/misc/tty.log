@@ -1,0 +1,8 @@
+not a tty
+not a tty
+tty: extra operand 'a'
+Try 'tty --help' for more information.
+tty: extra operand 'a'
+Try 'tty --help' for more information.
+tty: write error: No space left on device
+PASS tests/misc/tty.sh (exit status: 0)

@@ -1,0 +1,3 @@
+env: cannot specify --null (-0) with command
+Try 'env --help' for more information.
+PASS tests/misc/env-null.sh (exit status: 0)

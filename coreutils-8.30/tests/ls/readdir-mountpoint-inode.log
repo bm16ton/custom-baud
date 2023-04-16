@@ -1,0 +1,1 @@
+PASS tests/ls/readdir-mountpoint-inode.sh (exit status: 0)

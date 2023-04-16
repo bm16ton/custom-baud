@@ -1,0 +1,2 @@
+ln: failed to create hard link 'no-such-file/' => 'f': No such file or directory
+PASS tests/ln/slash-decorated-nonexistent-dest.sh (exit status: 0)

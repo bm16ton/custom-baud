@@ -1,0 +1,1 @@
+PASS tests/mv/symlink-onto-hardlink.sh (exit status: 0)

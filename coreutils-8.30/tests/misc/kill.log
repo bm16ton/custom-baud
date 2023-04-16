@@ -1,0 +1,209 @@
+kill: no process ID specified
+Try 'kill --help' for more information.
+kill: no process ID specified
+Try 'kill --help' for more information.
+kill: multiple -l or -t options specified
+Try 'kill --help' for more information.
+kill: multiple -l or -t options specified
+Try 'kill --help' for more information.
+kill: cannot combine signal with -l or -t
+Try 'kill --help' for more information.
+kill: cannot combine signal with -l or -t
+Try 'kill --help' for more information.
+kill: 'no_pid': invalid process id
+kill: invalid option -- 'c'
+Try 'kill --help' for more information.
+HUP
+INT
+QUIT
+ILL
+TRAP
+ABRT
+BUS
+FPE
+KILL
+USR1
+SEGV
+USR2
+PIPE
+ALRM
+TERM
+STKFLT
+CHLD
+CONT
+STOP
+TSTP
+TTIN
+TTOU
+URG
+XCPU
+XFSZ
+VTALRM
+PROF
+WINCH
+POLL
+PWR
+SYS
+RTMIN
+RTMIN+1
+RTMIN+2
+RTMIN+3
+RTMIN+4
+RTMIN+5
+RTMIN+6
+RTMIN+7
+RTMIN+8
+RTMIN+9
+RTMIN+10
+RTMIN+11
+RTMIN+12
+RTMIN+13
+RTMIN+14
+RTMIN+15
+RTMAX-14
+RTMAX-13
+RTMAX-12
+RTMAX-11
+RTMAX-10
+RTMAX-9
+RTMAX-8
+RTMAX-7
+RTMAX-6
+RTMAX-5
+RTMAX-4
+RTMAX-3
+RTMAX-2
+RTMAX-1
+RTMAX
+ 1 HUP      Hangup
+ 2 INT      Interrupt
+ 3 QUIT     Quit
+ 4 ILL      Illegal instruction
+ 5 TRAP     Trace/breakpoint trap
+ 6 ABRT     Aborted
+ 7 BUS      Bus error
+ 8 FPE      Floating point exception
+ 9 KILL     Killed
+10 USR1     User defined signal 1
+11 SEGV     Segmentation fault
+12 USR2     User defined signal 2
+13 PIPE     Broken pipe
+14 ALRM     Alarm clock
+15 TERM     Terminated
+16 STKFLT   Stack fault
+17 CHLD     Child exited
+18 CONT     Continued
+19 STOP     Stopped (signal)
+20 TSTP     Stopped
+21 TTIN     Stopped (tty input)
+22 TTOU     Stopped (tty output)
+23 URG      Urgent I/O condition
+24 XCPU     CPU time limit exceeded
+25 XFSZ     File size limit exceeded
+26 VTALRM   Virtual timer expired
+27 PROF     Profiling timer expired
+28 WINCH    Window changed
+29 POLL     I/O possible
+30 PWR      Power failure
+31 SYS      Bad system call
+34 RTMIN    Real-time signal 0
+35 RTMIN+1  Real-time signal 1
+36 RTMIN+2  Real-time signal 2
+37 RTMIN+3  Real-time signal 3
+38 RTMIN+4  Real-time signal 4
+39 RTMIN+5  Real-time signal 5
+40 RTMIN+6  Real-time signal 6
+41 RTMIN+7  Real-time signal 7
+42 RTMIN+8  Real-time signal 8
+43 RTMIN+9  Real-time signal 9
+44 RTMIN+10 Real-time signal 10
+45 RTMIN+11 Real-time signal 11
+46 RTMIN+12 Real-time signal 12
+47 RTMIN+13 Real-time signal 13
+48 RTMIN+14 Real-time signal 14
+49 RTMIN+15 Real-time signal 15
+50 RTMAX-14 Real-time signal 16
+51 RTMAX-13 Real-time signal 17
+52 RTMAX-12 Real-time signal 18
+53 RTMAX-11 Real-time signal 19
+54 RTMAX-10 Real-time signal 20
+55 RTMAX-9  Real-time signal 21
+56 RTMAX-8  Real-time signal 22
+57 RTMAX-7  Real-time signal 23
+58 RTMAX-6  Real-time signal 24
+59 RTMAX-5  Real-time signal 25
+60 RTMAX-4  Real-time signal 26
+61 RTMAX-3  Real-time signal 27
+62 RTMAX-2  Real-time signal 28
+63 RTMAX-1  Real-time signal 29
+64 RTMAX    Real-time signal 30
+ 1 HUP      Hangup
+ 2 INT      Interrupt
+ 3 QUIT     Quit
+ 4 ILL      Illegal instruction
+ 5 TRAP     Trace/breakpoint trap
+ 6 ABRT     Aborted
+ 7 BUS      Bus error
+ 8 FPE      Floating point exception
+ 9 KILL     Killed
+10 USR1     User defined signal 1
+11 SEGV     Segmentation fault
+12 USR2     User defined signal 2
+13 PIPE     Broken pipe
+14 ALRM     Alarm clock
+15 TERM     Terminated
+16 STKFLT   Stack fault
+17 CHLD     Child exited
+18 CONT     Continued
+19 STOP     Stopped (signal)
+20 TSTP     Stopped
+21 TTIN     Stopped (tty input)
+22 TTOU     Stopped (tty output)
+23 URG      Urgent I/O condition
+24 XCPU     CPU time limit exceeded
+25 XFSZ     File size limit exceeded
+26 VTALRM   Virtual timer expired
+27 PROF     Profiling timer expired
+28 WINCH    Window changed
+29 POLL     I/O possible
+30 PWR      Power failure
+31 SYS      Bad system call
+34 RTMIN    Real-time signal 0
+35 RTMIN+1  Real-time signal 1
+36 RTMIN+2  Real-time signal 2
+37 RTMIN+3  Real-time signal 3
+38 RTMIN+4  Real-time signal 4
+39 RTMIN+5  Real-time signal 5
+40 RTMIN+6  Real-time signal 6
+41 RTMIN+7  Real-time signal 7
+42 RTMIN+8  Real-time signal 8
+43 RTMIN+9  Real-time signal 9
+44 RTMIN+10 Real-time signal 10
+45 RTMIN+11 Real-time signal 11
+46 RTMIN+12 Real-time signal 12
+47 RTMIN+13 Real-time signal 13
+48 RTMIN+14 Real-time signal 14
+49 RTMIN+15 Real-time signal 15
+50 RTMAX-14 Real-time signal 16
+51 RTMAX-13 Real-time signal 17
+52 RTMAX-12 Real-time signal 18
+53 RTMAX-11 Real-time signal 19
+54 RTMAX-10 Real-time signal 20
+55 RTMAX-9  Real-time signal 21
+56 RTMAX-8  Real-time signal 22
+57 RTMAX-7  Real-time signal 23
+58 RTMAX-6  Real-time signal 24
+59 RTMAX-5  Real-time signal 25
+60 RTMAX-4  Real-time signal 26
+61 RTMAX-3  Real-time signal 27
+62 RTMAX-2  Real-time signal 28
+63 RTMAX-1  Real-time signal 29
+64 RTMAX    Real-time signal 30
+15 TERM     Terminated
+ 1 HUP      Hangup
+kill: '-1': invalid signal
+kill: '-1': invalid signal
+EXIT
+kill: 'INVALID': invalid signal
+15
+PASS tests/misc/kill.sh (exit status: 0)

@@ -1,0 +1,2 @@
+problematic-chars.sh: skipped test: must be run as root
+SKIP tests/df/problematic-chars.sh (exit status: 77)

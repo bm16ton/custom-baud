@@ -1,0 +1,6 @@
+rm: refusing to remove '.' or '..' directory: skipping 'd/.'
+rm: refusing to remove '.' or '..' directory: skipping 'd/./'
+rm: refusing to remove '.' or '..' directory: skipping 'd/./'
+rm: refusing to remove '.' or '..' directory: skipping 'd/..'
+rm: refusing to remove '.' or '..' directory: skipping 'd/../'
+PASS tests/rm/r-4.sh (exit status: 0)

@@ -1,0 +1,2 @@
+nameless-uid.sh: skipped test: must be run as root
+SKIP tests/ls/nameless-uid.sh (exit status: 77)

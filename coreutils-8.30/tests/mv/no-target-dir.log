@@ -1,0 +1,1 @@
+PASS tests/mv/no-target-dir.sh (exit status: 0)

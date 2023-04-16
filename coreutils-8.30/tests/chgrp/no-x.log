@@ -1,0 +1,1 @@
+PASS tests/chgrp/no-x.sh (exit status: 0)

@@ -1,0 +1,2 @@
+one-file-system.sh: skipped test: must be run as root
+SKIP tests/rm/one-file-system.sh (exit status: 77)

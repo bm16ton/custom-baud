@@ -1,0 +1,2 @@
+install-Z-selinux.sh: skipped test: this system lacks SELinux support
+SKIP tests/install/install-Z-selinux.sh (exit status: 77)

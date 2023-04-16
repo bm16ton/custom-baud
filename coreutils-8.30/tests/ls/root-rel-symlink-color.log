@@ -1,0 +1,2 @@
+root-rel-symlink-color.sh: skipped test: no relative symlink in /
+SKIP tests/ls/root-rel-symlink-color.sh (exit status: 77)

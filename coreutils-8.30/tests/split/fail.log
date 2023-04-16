@@ -1,0 +1,4 @@
+truncate: Invalid number: '18446744073709551616': Value too large for defined data type
+cat: .: Is a directory
+split: .: Is a directory
+PASS tests/split/fail.sh (exit status: 0)

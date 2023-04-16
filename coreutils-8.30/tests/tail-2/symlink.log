@@ -1,0 +1,8 @@
+tail: cannot open 'symlink' for reading: No such file or directory
+tail: 'symlink' has appeared;  following new file
+X
+tail: 'symlink' has become inaccessible: No such file or directory
+tail: 'symlink' has appeared;  following new file
+X1
+X2
+PASS tests/tail-2/symlink.sh (exit status: 0)

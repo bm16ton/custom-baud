@@ -1,0 +1,10 @@
+regfile
+regfile
+regfile
+regfile
+regfile
+/Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gt-multi.sh.VKoV/regfile
+/Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/gt-multi.sh.VKoV/link2
+readlink: ignoring --no-newline with multiple arguments
+readlink: ignoring --no-newline with multiple arguments
+PASS tests/readlink/multi.sh (exit status: 0)

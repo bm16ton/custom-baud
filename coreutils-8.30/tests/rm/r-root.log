@@ -1,0 +1,7 @@
+diff -u /dev/null err
+--- /dev/null	1970-01-01
++++ err	1970-01-01
++No source file named /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/src/remove.c.
+No source file named /Part/gtk-serial-terms/custom-baudrate/coreutils-8.30/src/remove.c.
+r-root.sh: skipped test: internal test failure: maybe LD_PRELOAD or gdb doesn't work?
+SKIP tests/rm/r-root.sh (exit status: 77)

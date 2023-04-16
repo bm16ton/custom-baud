@@ -1,0 +1,11 @@
+realpath: missing operand
+Try 'realpath --help' for more information.
+realpath: missing operand
+Try 'realpath --help' for more information.
+realpath: missing operand
+Try 'realpath --help' for more information.
+realpath: dir1/f: Not a directory
+..
+realpath: '': No such file or directory
+realpath: '': No such file or directory
+PASS tests/misc/realpath.sh (exit status: 0)

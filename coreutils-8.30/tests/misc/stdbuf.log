@@ -1,0 +1,9 @@
+stdbuf: invalid mode 'l'
+stdbuf: invalid mode '18446744073709551616': Value too large for defined data type
+stdbuf: line buffering stdin is meaningless
+Try 'stdbuf --help' for more information.
+stdbuf: you must specify a buffering mode option
+Try 'stdbuf --help' for more information.
+stdbuf: failed to run command '.': Permission denied
+stdbuf: failed to run command 'no_such': No such file or directory
+PASS tests/misc/stdbuf.sh (exit status: 0)

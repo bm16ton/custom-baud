@@ -1,0 +1,4 @@
+250000000 bytes (250 MB, 238 MiB) copied, 0.272652 s, 917 MB/s
+250000000 bytes (250 MB, 238 MiB) copied, 0.278501 s, 898 MB/s
+1 byte copied, 1 s, 0.0 kB/s
+PASS tests/dd/stats.sh (exit status: 0)

@@ -1,0 +1,5 @@
+Starting test_lock ... OK
+Starting test_rwlock ... OK
+Starting test_recursive_lock ... OK
+Starting test_once ... OK
+PASS test-lock (exit status: 0)
